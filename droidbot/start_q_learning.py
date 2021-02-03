@@ -53,12 +53,6 @@ def parse_args():
                         help="The file path to target APK")
     parser.add_argument("-o", action="store", dest="output_dir",
                         help="directory of output")
-    # parser.add_argument("-env", action="store", dest="env_policy",
-    #                     help="policy to set up environment. Supported policies:\n"
-    #                          "none\tno environment will be set. App will run in default environment of device; \n"
-    #                          "dummy\tadd some fake contacts, SMS log, call log; \n"
-    #                          "static\tset environment based on static analysis result; \n"
-    #                          "<file>\tget environment policy from a json file.\n")
     parser.add_argument("-policy", action="store", dest="input_policy", default=input_manager.DEFAULT_POLICY,
                         help='Policy to use for test input generation. '
                              'Default: %s.\nSupported policies:\n' % input_manager.DEFAULT_POLICY +
@@ -253,12 +247,6 @@ def main():
             Q_TABLE[-1][-1] = 1.0
             number_of_trans.append(np.zeros(max_number_of_actions))
         #print(state_function)
-#    if True:
-#        Q_TABLE = np.load('q_function.npy')
-#        transitions_matrix = np.load('transition_function.npy')
-#        with open('states.json', 'r') as data_file:
-#            state_function = json.load(data_file)
-
     state_pre, probs, event_ids = events_so_state(env)
     check_state(state_pre)
     state = state_function[state_pre]
