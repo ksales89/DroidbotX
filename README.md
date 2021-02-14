@@ -33,4 +33,10 @@ pip install -e .
 
 4. In `my_output_dic directory` find `index.html` to view the UTG model.
 
+## Publication 
+DroidbotX: Test Case Generation Tool for Android Applications Using Q-Learning
+(https://www.mdpi.com/997092)
+```Yasin, H.N.; Hamid, S.H.A.; Raja Yusof, R.J. DroidbotX: Test Case Generation Tool for Android Applications Using Q-Learning. Symmetry 2021, 13, 310. https://doi.org/10.3390/sym13020310```
+
+
 
