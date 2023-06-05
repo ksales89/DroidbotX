@@ -1,0 +1,2492 @@
+[
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "struct",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "struct",
+        "description": "struct",
+        "detail": "struct",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "Timer",
+        "importPath": "threading",
+        "description": "threading",
+        "isExtraImport": true,
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "telnetlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "telnetlib",
+        "description": "telnetlib",
+        "detail": "telnetlib",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotEnv",
+        "importPath": "droidbot.droidbot_env",
+        "description": "droidbot.droidbot_env",
+        "isExtraImport": true,
+        "detail": "droidbot.droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "QNetwork",
+        "importPath": "droidbot.droidbot_env",
+        "description": "droidbot.droidbot_env",
+        "isExtraImport": true,
+        "detail": "droidbot.droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "ReplayMemory",
+        "importPath": "droidbot.droidbot_env",
+        "description": "droidbot.droidbot_env",
+        "isExtraImport": true,
+        "detail": "droidbot.droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "Intent",
+        "importPath": "intent",
+        "description": "intent",
+        "isExtraImport": true,
+        "detail": "intent",
+        "documentation": {}
+    },
+    {
+        "label": "Intent",
+        "importPath": "intent",
+        "description": "intent",
+        "isExtraImport": true,
+        "detail": "intent",
+        "documentation": {}
+    },
+    {
+        "label": "Intent",
+        "importPath": "intent",
+        "description": "intent",
+        "isExtraImport": true,
+        "detail": "intent",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "ADB",
+        "importPath": "adapter.adb",
+        "description": "adapter.adb",
+        "isExtraImport": true,
+        "detail": "adapter.adb",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotAppConn",
+        "importPath": "adapter.droidbot_app",
+        "description": "adapter.droidbot_app",
+        "isExtraImport": true,
+        "detail": "adapter.droidbot_app",
+        "documentation": {}
+    },
+    {
+        "label": "Logcat",
+        "importPath": "adapter.logcat",
+        "description": "adapter.logcat",
+        "isExtraImport": true,
+        "detail": "adapter.logcat",
+        "documentation": {}
+    },
+    {
+        "label": "Minicap",
+        "importPath": "adapter.minicap",
+        "description": "adapter.minicap",
+        "isExtraImport": true,
+        "detail": "adapter.minicap",
+        "documentation": {}
+    },
+    {
+        "label": "ProcessMonitor",
+        "importPath": "adapter.process_monitor",
+        "description": "adapter.process_monitor",
+        "isExtraImport": true,
+        "detail": "adapter.process_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "TelnetConsole",
+        "importPath": "adapter.telnet",
+        "description": "adapter.telnet",
+        "isExtraImport": true,
+        "detail": "adapter.telnet",
+        "documentation": {}
+    },
+    {
+        "label": "UserInputMonitor",
+        "importPath": "adapter.user_input_monitor",
+        "description": "adapter.user_input_monitor",
+        "isExtraImport": true,
+        "detail": "adapter.user_input_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotIme",
+        "importPath": "adapter.droidbot_ime",
+        "description": "adapter.droidbot_ime",
+        "isExtraImport": true,
+        "detail": "adapter.droidbot_ime",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "utils",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "utils",
+        "description": "utils",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "md5",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "safe_re_match",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "list_to_html_table",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "TouchEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "LongTouchEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "ScrollEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "SetTextEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KeyEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KeyEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "EventLog",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "InputEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KeyEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "IntentEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "TouchEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "ManualEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "SetTextEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "InputEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KeyEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "TouchEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "LongTouchEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "ScrollEvent",
+        "importPath": "input_event",
+        "description": "input_event",
+        "isExtraImport": true,
+        "detail": "input_event",
+        "documentation": {}
+    },
+    {
+        "label": "pkg_resources",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "Device",
+        "importPath": "device",
+        "description": "device",
+        "isExtraImport": true,
+        "detail": "device",
+        "documentation": {}
+    },
+    {
+        "label": "Device",
+        "importPath": "device",
+        "description": "device",
+        "isExtraImport": true,
+        "detail": "device",
+        "documentation": {}
+    },
+    {
+        "label": "env_manager",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "env_manager",
+        "description": "env_manager",
+        "detail": "env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "AppEnvManager",
+        "importPath": "env_manager",
+        "description": "env_manager",
+        "isExtraImport": true,
+        "detail": "env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "input_manager",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "input_manager",
+        "description": "input_manager",
+        "detail": "input_manager",
+        "documentation": {}
+    },
+    {
+        "label": "InputManager",
+        "importPath": "input_manager",
+        "description": "input_manager",
+        "isExtraImport": true,
+        "detail": "input_manager",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "torch.optim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "gym",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gym",
+        "description": "gym",
+        "detail": "gym",
+        "documentation": {}
+    },
+    {
+        "label": "spaces",
+        "importPath": "gym",
+        "description": "gym",
+        "isExtraImport": true,
+        "detail": "gym",
+        "documentation": {}
+    },
+    {
+        "label": "seeding",
+        "importPath": "gym.utils",
+        "description": "gym.utils",
+        "isExtraImport": true,
+        "detail": "gym.utils",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "UTG",
+        "importPath": "utg",
+        "description": "utg",
+        "isExtraImport": true,
+        "detail": "utg",
+        "documentation": {}
+    },
+    {
+        "label": "UTG",
+        "importPath": "utg",
+        "description": "utg",
+        "isExtraImport": true,
+        "detail": "utg",
+        "documentation": {}
+    },
+    {
+        "label": "networkx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "networkx",
+        "description": "networkx",
+        "detail": "networkx",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "coverage",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "coverage",
+        "description": "coverage",
+        "detail": "coverage",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "ServerProxy",
+        "importPath": "xmlrpc.client",
+        "description": "xmlrpc.client",
+        "isExtraImport": true,
+        "detail": "xmlrpc.client",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotConn",
+        "importPath": "adapter.droidbot",
+        "description": "adapter.droidbot",
+        "isExtraImport": true,
+        "detail": "adapter.droidbot",
+        "documentation": {}
+    },
+    {
+        "label": "QEMUConn",
+        "importPath": "adapter.qemu",
+        "description": "adapter.qemu",
+        "isExtraImport": true,
+        "detail": "adapter.qemu",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "input_policy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "input_policy",
+        "description": "input_policy",
+        "detail": "input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "UtgBasedInputPolicy",
+        "importPath": "input_policy",
+        "description": "input_policy",
+        "isExtraImport": true,
+        "detail": "input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "UtgNaiveSearchPolicy",
+        "importPath": "input_policy",
+        "description": "input_policy",
+        "isExtraImport": true,
+        "detail": "input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "UtgGreedySearchPolicy",
+        "importPath": "input_policy",
+        "description": "input_policy",
+        "isExtraImport": true,
+        "detail": "input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "input_policy",
+        "description": "input_policy",
+        "isExtraImport": true,
+        "detail": "input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBot",
+        "importPath": "droidbot",
+        "description": "droidbot",
+        "isExtraImport": true,
+        "detail": "droidbot",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBot",
+        "importPath": "droidbot",
+        "description": "droidbot",
+        "isExtraImport": true,
+        "detail": "droidbot",
+        "documentation": {}
+    },
+    {
+        "label": "DroidMaster",
+        "importPath": "droidmaster",
+        "description": "droidmaster",
+        "isExtraImport": true,
+        "detail": "droidmaster",
+        "documentation": {}
+    },
+    {
+        "label": "DroidMaster",
+        "importPath": "droidmaster",
+        "description": "droidmaster",
+        "isExtraImport": true,
+        "detail": "droidmaster",
+        "documentation": {}
+    },
+    {
+        "label": "droidbot_env",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "droidbot_env",
+        "description": "droidbot_env",
+        "detail": "droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "DummyVecEnv",
+        "importPath": "stable_baselines.common.vec_env",
+        "description": "stable_baselines.common.vec_env",
+        "isExtraImport": true,
+        "detail": "stable_baselines.common.vec_env",
+        "documentation": {}
+    },
+    {
+        "label": "CnnPolicy",
+        "importPath": "stable_baselines.common.policies",
+        "description": "stable_baselines.common.policies",
+        "isExtraImport": true,
+        "detail": "stable_baselines.common.policies",
+        "documentation": {}
+    },
+    {
+        "label": "MlpPolicy",
+        "importPath": "stable_baselines.common.policies",
+        "description": "stable_baselines.common.policies",
+        "isExtraImport": true,
+        "detail": "stable_baselines.common.policies",
+        "documentation": {}
+    },
+    {
+        "label": "A2C",
+        "importPath": "stable_baselines",
+        "description": "stable_baselines",
+        "isExtraImport": true,
+        "detail": "stable_baselines",
+        "documentation": {}
+    },
+    {
+        "label": "DQN",
+        "importPath": "stable_baselines",
+        "description": "stable_baselines",
+        "isExtraImport": true,
+        "detail": "stable_baselines",
+        "documentation": {}
+    },
+    {
+        "label": "MlpPolicy",
+        "importPath": "stable_baselines.deepq.policies",
+        "description": "stable_baselines.deepq.policies",
+        "isExtraImport": true,
+        "detail": "stable_baselines.deepq.policies",
+        "documentation": {}
+    },
+    {
+        "label": "CnnPolicy",
+        "importPath": "stable_baselines.deepq.policies",
+        "description": "stable_baselines.deepq.policies",
+        "isExtraImport": true,
+        "detail": "stable_baselines.deepq.policies",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "findall",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "Adapter",
+        "kind": 6,
+        "importPath": "droidbot.adapter.adapter",
+        "description": "droidbot.adapter.adapter",
+        "peekOfCode": "class Adapter(object):\n    def connect(self):\n        pass\n    def disconnect(self):\n        pass\n    def check_connectivity(self):\n        pass\n    def set_up(self):\n        pass\n    def tear_down(self):",
+        "detail": "droidbot.adapter.adapter",
+        "documentation": {}
+    },
+    {
+        "label": "ADBException",
+        "kind": 6,
+        "importPath": "droidbot.adapter.adb",
+        "description": "droidbot.adapter.adb",
+        "peekOfCode": "class ADBException(Exception):\n    \"\"\"\n    Exception in ADB connection\n    \"\"\"\n    pass\nclass ADB(Adapter):\n    \"\"\"\n    interface of ADB\n    send adb commands via this, see:\n    http://developer.android.com/tools/help/adb.html",
+        "detail": "droidbot.adapter.adb",
+        "documentation": {}
+    },
+    {
+        "label": "ADB",
+        "kind": 6,
+        "importPath": "droidbot.adapter.adb",
+        "description": "droidbot.adapter.adb",
+        "peekOfCode": "class ADB(Adapter):\n    \"\"\"\n    interface of ADB\n    send adb commands via this, see:\n    http://developer.android.com/tools/help/adb.html\n    \"\"\"\n    UP = 0\n    DOWN = 1\n    DOWN_AND_UP = 2\n    MODEL_PROPERTY = \"ro.product.model\"",
+        "detail": "droidbot.adapter.adb",
+        "documentation": {}
+    },
+    {
+        "label": "load_image_from_path",
+        "kind": 2,
+        "importPath": "droidbot.adapter.cv",
+        "description": "droidbot.adapter.cv",
+        "peekOfCode": "def load_image_from_path(img_path):\n    \"\"\"\n    Load an image from path\n    :param img_path: The path to the image\n    :return:\n    \"\"\"\n    import cv2\n    return cv2.imread(img_path)\ndef load_image_from_buf(img_bytes):\n    \"\"\"",
+        "detail": "droidbot.adapter.cv",
+        "documentation": {}
+    },
+    {
+        "label": "load_image_from_buf",
+        "kind": 2,
+        "importPath": "droidbot.adapter.cv",
+        "description": "droidbot.adapter.cv",
+        "peekOfCode": "def load_image_from_buf(img_bytes):\n    \"\"\"\n    Load an image from a byte array\n    :param img_bytes: The byte array of an image\n    :return:\n    \"\"\"\n    import cv2\n    import numpy\n    img_bytes = numpy.array(img_bytes)\n    return cv2.imdecode(img_bytes, cv2.IMREAD_UNCHANGED)",
+        "detail": "droidbot.adapter.cv",
+        "documentation": {}
+    },
+    {
+        "label": "find_views",
+        "kind": 2,
+        "importPath": "droidbot.adapter.cv",
+        "description": "droidbot.adapter.cv",
+        "peekOfCode": "def find_views(img):\n    \"\"\"\n    Find rectangular views given a UI screenshot\n    :param img: numpy.ndarray, representing an image in opencv\n    :return: a list of rectangles, each of which is a tuple (x,y,w,h) representing an identified UI view.\n    \"\"\"\n    import cv2\n    x_scale = 0.3\n    y_scale = 0.3\n    # resize to a smaller image",
+        "detail": "droidbot.adapter.cv",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_dhash",
+        "kind": 2,
+        "importPath": "droidbot.adapter.cv",
+        "description": "droidbot.adapter.cv",
+        "peekOfCode": "def calculate_dhash(img):\n    \"\"\"\n    Calculate the dhash value of an image.\n    :param img: numpy.ndarray, representing an image in opencv\n    :return:\n    \"\"\"\n    difference = _calculate_pixel_difference(img)\n    # convert to hex\n    decimal_value = 0\n    hash_string = \"\"",
+        "detail": "droidbot.adapter.cv",
+        "documentation": {}
+    },
+    {
+        "label": "img_hamming_distance",
+        "kind": 2,
+        "importPath": "droidbot.adapter.cv",
+        "description": "droidbot.adapter.cv",
+        "peekOfCode": "def img_hamming_distance(img1, img2):\n    \"\"\"\n    Calculate the hamming distance between two images\n    :param img1: numpy.ndarray, representing an image in opencv\n    :param img2: numpy.ndarray, representing an image in opencv\n    :return: int, the hamming distance between two images\n    \"\"\"\n    # A. use dHash value to calculate hamming distance\n    if isinstance(img1, str) and isinstance(img2, str):\n        return dhash_hamming_distance(img1, img2)",
+        "detail": "droidbot.adapter.cv",
+        "documentation": {}
+    },
+    {
+        "label": "dhash_hamming_distance",
+        "kind": 2,
+        "importPath": "droidbot.adapter.cv",
+        "description": "droidbot.adapter.cv",
+        "peekOfCode": "def dhash_hamming_distance(dhash1, dhash2):\n    \"\"\"\n    Calculate the hamming distance between two dhash values\n    :param dhash1: str, the dhash of an image returned by `calculate_dhash`\n    :param dhash2: str, the dhash of an image returned by `calculate_dhash`\n    :return: int, the hamming distance between two dhash values\n    \"\"\"\n    difference = (int(dhash1, 16)) ^ (int(dhash2, 16))\n    return bin(difference).count(\"1\")",
+        "detail": "droidbot.adapter.cv",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotConnException",
+        "kind": 6,
+        "importPath": "droidbot.adapter.droidbot",
+        "description": "droidbot.adapter.droidbot",
+        "peekOfCode": "class DroidBotConnException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass EOF(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass",
+        "detail": "droidbot.adapter.droidbot",
+        "documentation": {}
+    },
+    {
+        "label": "EOF",
+        "kind": 6,
+        "importPath": "droidbot.adapter.droidbot",
+        "description": "droidbot.adapter.droidbot",
+        "peekOfCode": "class EOF(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass DroidBotConn(Adapter):\n    \"\"\"\n    a connection with DroidBot.\n    \"\"\"\n    def __init__(self, device_unique_id,",
+        "detail": "droidbot.adapter.droidbot",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotConn",
+        "kind": 6,
+        "importPath": "droidbot.adapter.droidbot",
+        "description": "droidbot.adapter.droidbot",
+        "peekOfCode": "class DroidBotConn(Adapter):\n    \"\"\"\n    a connection with DroidBot.\n    \"\"\"\n    def __init__(self, device_unique_id,\n                 app_path=None,\n                 device_serial=None,\n                 is_emulator=False,\n                 output_dir=None,\n                 env_policy=None,",
+        "detail": "droidbot.adapter.droidbot",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotAppConnException",
+        "kind": 6,
+        "importPath": "droidbot.adapter.droidbot_app",
+        "description": "droidbot.adapter.droidbot_app",
+        "peekOfCode": "class DroidBotAppConnException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass EOF(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass",
+        "detail": "droidbot.adapter.droidbot_app",
+        "documentation": {}
+    },
+    {
+        "label": "EOF",
+        "kind": 6,
+        "importPath": "droidbot.adapter.droidbot_app",
+        "description": "droidbot.adapter.droidbot_app",
+        "peekOfCode": "class EOF(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass DroidBotAppConn(Adapter):\n    \"\"\"\n    a connection with droidbot app.\n    \"\"\"\n    def __init__(self, device=None):",
+        "detail": "droidbot.adapter.droidbot_app",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotAppConn",
+        "kind": 6,
+        "importPath": "droidbot.adapter.droidbot_app",
+        "description": "droidbot.adapter.droidbot_app",
+        "peekOfCode": "class DroidBotAppConn(Adapter):\n    \"\"\"\n    a connection with droidbot app.\n    \"\"\"\n    def __init__(self, device=None):\n        \"\"\"\n        initiate a droidbot app connection\n        :param device: instance of Device\n        :return:\n        \"\"\"",
+        "detail": "droidbot.adapter.droidbot_app",
+        "documentation": {}
+    },
+    {
+        "label": "DROIDBOT_APP_REMOTE_ADDR",
+        "kind": 5,
+        "importPath": "droidbot.adapter.droidbot_app",
+        "description": "droidbot.adapter.droidbot_app",
+        "peekOfCode": "DROIDBOT_APP_REMOTE_ADDR = \"tcp:7336\"\nDROIDBOT_APP_PACKAGE = \"io.github.ylimit.droidbotapp\"\nDROIDBOT_APP_PACKET_HEAD_LEN = 6\nACCESSIBILITY_SERVICE = DROIDBOT_APP_PACKAGE + \"/io.github.privacystreams.accessibility.PSAccessibilityService\"\nMAX_NUM_GET_VIEWS = 5\nGET_VIEW_WAIT_TIME = 1\nclass DroidBotAppConnException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"",
+        "detail": "droidbot.adapter.droidbot_app",
+        "documentation": {}
+    },
+    {
+        "label": "DROIDBOT_APP_PACKAGE",
+        "kind": 5,
+        "importPath": "droidbot.adapter.droidbot_app",
+        "description": "droidbot.adapter.droidbot_app",
+        "peekOfCode": "DROIDBOT_APP_PACKAGE = \"io.github.ylimit.droidbotapp\"\nDROIDBOT_APP_PACKET_HEAD_LEN = 6\nACCESSIBILITY_SERVICE = DROIDBOT_APP_PACKAGE + \"/io.github.privacystreams.accessibility.PSAccessibilityService\"\nMAX_NUM_GET_VIEWS = 5\nGET_VIEW_WAIT_TIME = 1\nclass DroidBotAppConnException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass",
+        "detail": "droidbot.adapter.droidbot_app",
+        "documentation": {}
+    },
+    {
+        "label": "DROIDBOT_APP_PACKET_HEAD_LEN",
+        "kind": 5,
+        "importPath": "droidbot.adapter.droidbot_app",
+        "description": "droidbot.adapter.droidbot_app",
+        "peekOfCode": "DROIDBOT_APP_PACKET_HEAD_LEN = 6\nACCESSIBILITY_SERVICE = DROIDBOT_APP_PACKAGE + \"/io.github.privacystreams.accessibility.PSAccessibilityService\"\nMAX_NUM_GET_VIEWS = 5\nGET_VIEW_WAIT_TIME = 1\nclass DroidBotAppConnException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass EOF(Exception):",
+        "detail": "droidbot.adapter.droidbot_app",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESSIBILITY_SERVICE",
+        "kind": 5,
+        "importPath": "droidbot.adapter.droidbot_app",
+        "description": "droidbot.adapter.droidbot_app",
+        "peekOfCode": "ACCESSIBILITY_SERVICE = DROIDBOT_APP_PACKAGE + \"/io.github.privacystreams.accessibility.PSAccessibilityService\"\nMAX_NUM_GET_VIEWS = 5\nGET_VIEW_WAIT_TIME = 1\nclass DroidBotAppConnException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass EOF(Exception):\n    \"\"\"",
+        "detail": "droidbot.adapter.droidbot_app",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_NUM_GET_VIEWS",
+        "kind": 5,
+        "importPath": "droidbot.adapter.droidbot_app",
+        "description": "droidbot.adapter.droidbot_app",
+        "peekOfCode": "MAX_NUM_GET_VIEWS = 5\nGET_VIEW_WAIT_TIME = 1\nclass DroidBotAppConnException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass EOF(Exception):\n    \"\"\"\n    Exception in telnet connection",
+        "detail": "droidbot.adapter.droidbot_app",
+        "documentation": {}
+    },
+    {
+        "label": "GET_VIEW_WAIT_TIME",
+        "kind": 5,
+        "importPath": "droidbot.adapter.droidbot_app",
+        "description": "droidbot.adapter.droidbot_app",
+        "peekOfCode": "GET_VIEW_WAIT_TIME = 1\nclass DroidBotAppConnException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass EOF(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"",
+        "detail": "droidbot.adapter.droidbot_app",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotImeException",
+        "kind": 6,
+        "importPath": "droidbot.adapter.droidbot_ime",
+        "description": "droidbot.adapter.droidbot_ime",
+        "peekOfCode": "class DroidBotImeException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass DroidBotIme(Adapter):\n    \"\"\"\n    a connection with droidbot ime app.\n    \"\"\"\n    def __init__(self, device=None):",
+        "detail": "droidbot.adapter.droidbot_ime",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotIme",
+        "kind": 6,
+        "importPath": "droidbot.adapter.droidbot_ime",
+        "description": "droidbot.adapter.droidbot_ime",
+        "peekOfCode": "class DroidBotIme(Adapter):\n    \"\"\"\n    a connection with droidbot ime app.\n    \"\"\"\n    def __init__(self, device=None):\n        \"\"\"\n        initiate a emulator console via telnet\n        :param device: instance of Device\n        :return:\n        \"\"\"",
+        "detail": "droidbot.adapter.droidbot_ime",
+        "documentation": {}
+    },
+    {
+        "label": "DROIDBOT_APP_PACKAGE",
+        "kind": 5,
+        "importPath": "droidbot.adapter.droidbot_ime",
+        "description": "droidbot.adapter.droidbot_ime",
+        "peekOfCode": "DROIDBOT_APP_PACKAGE = \"io.github.ylimit.droidbotapp\"\nIME_SERVICE = DROIDBOT_APP_PACKAGE + \"/.DroidBotIME\"\nclass DroidBotImeException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass DroidBotIme(Adapter):\n    \"\"\"\n    a connection with droidbot ime app.",
+        "detail": "droidbot.adapter.droidbot_ime",
+        "documentation": {}
+    },
+    {
+        "label": "IME_SERVICE",
+        "kind": 5,
+        "importPath": "droidbot.adapter.droidbot_ime",
+        "description": "droidbot.adapter.droidbot_ime",
+        "peekOfCode": "IME_SERVICE = DROIDBOT_APP_PACKAGE + \"/.DroidBotIME\"\nclass DroidBotImeException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass DroidBotIme(Adapter):\n    \"\"\"\n    a connection with droidbot ime app.\n    \"\"\"",
+        "detail": "droidbot.adapter.droidbot_ime",
+        "documentation": {}
+    },
+    {
+        "label": "JDWPException",
+        "kind": 6,
+        "importPath": "droidbot.adapter.jdwp",
+        "description": "droidbot.adapter.jdwp",
+        "peekOfCode": "class JDWPException(Exception):\n    \"\"\"\n    Exception in jdwp connection\n    \"\"\"\n    pass\nclass JDWP(Adapter):\n    \"\"\"\n    a connection with target app through JDWP.\n    \"\"\"\n    def __init__(self, device=None):",
+        "detail": "droidbot.adapter.jdwp",
+        "documentation": {}
+    },
+    {
+        "label": "JDWP",
+        "kind": 6,
+        "importPath": "droidbot.adapter.jdwp",
+        "description": "droidbot.adapter.jdwp",
+        "peekOfCode": "class JDWP(Adapter):\n    \"\"\"\n    a connection with target app through JDWP.\n    \"\"\"\n    def __init__(self, device=None):\n        \"\"\"\n        initiate a jdwp connection.\n        :param device: instance of Device\n        :return:\n        \"\"\"",
+        "detail": "droidbot.adapter.jdwp",
+        "documentation": {}
+    },
+    {
+        "label": "Logcat",
+        "kind": 6,
+        "importPath": "droidbot.adapter.logcat",
+        "description": "droidbot.adapter.logcat",
+        "peekOfCode": "class Logcat(Adapter):\n    \"\"\"\n    A connection with the target device through logcat.\n    \"\"\"\n    def __init__(self, device=None):\n        \"\"\"\n        initialize logcat connection\n        :param device: a Device instance\n        \"\"\"\n        self.logger = logging.getLogger(self.__class__.__name__)",
+        "detail": "droidbot.adapter.logcat",
+        "documentation": {}
+    },
+    {
+        "label": "MinicapException",
+        "kind": 6,
+        "importPath": "droidbot.adapter.minicap",
+        "description": "droidbot.adapter.minicap",
+        "peekOfCode": "class MinicapException(Exception):\n    \"\"\"\n    Exception in minicap connection\n    \"\"\"\n    pass\nclass Minicap(Adapter):\n    \"\"\"\n    a connection with target device through minicap.\n    \"\"\"\n    def __init__(self, device=None):",
+        "detail": "droidbot.adapter.minicap",
+        "documentation": {}
+    },
+    {
+        "label": "Minicap",
+        "kind": 6,
+        "importPath": "droidbot.adapter.minicap",
+        "description": "droidbot.adapter.minicap",
+        "peekOfCode": "class Minicap(Adapter):\n    \"\"\"\n    a connection with target device through minicap.\n    \"\"\"\n    def __init__(self, device=None):\n        \"\"\"\n        initiate a minicap connection\n        :param device: instance of Device\n        :return:\n        \"\"\"",
+        "detail": "droidbot.adapter.minicap",
+        "documentation": {}
+    },
+    {
+        "label": "MINICAP_REMOTE_ADDR",
+        "kind": 5,
+        "importPath": "droidbot.adapter.minicap",
+        "description": "droidbot.adapter.minicap",
+        "peekOfCode": "MINICAP_REMOTE_ADDR = \"localabstract:minicap\"\nROTATION_CHECK_INTERVAL_S = 1 # Check rotation once per second\nclass MinicapException(Exception):\n    \"\"\"\n    Exception in minicap connection\n    \"\"\"\n    pass\nclass Minicap(Adapter):\n    \"\"\"\n    a connection with target device through minicap.",
+        "detail": "droidbot.adapter.minicap",
+        "documentation": {}
+    },
+    {
+        "label": "ROTATION_CHECK_INTERVAL_S",
+        "kind": 5,
+        "importPath": "droidbot.adapter.minicap",
+        "description": "droidbot.adapter.minicap",
+        "peekOfCode": "ROTATION_CHECK_INTERVAL_S = 1 # Check rotation once per second\nclass MinicapException(Exception):\n    \"\"\"\n    Exception in minicap connection\n    \"\"\"\n    pass\nclass Minicap(Adapter):\n    \"\"\"\n    a connection with target device through minicap.\n    \"\"\"",
+        "detail": "droidbot.adapter.minicap",
+        "documentation": {}
+    },
+    {
+        "label": "ProcessMonitor",
+        "kind": 6,
+        "importPath": "droidbot.adapter.process_monitor",
+        "description": "droidbot.adapter.process_monitor",
+        "peekOfCode": "class ProcessMonitor(Adapter):\n    \"\"\"\n    monitoring the state of process on the device\n    \"\"\"\n    def __init__(self, device=None, app=None):\n        \"\"\"\n        initiate a process monitor\n        :param device: Device instance\n        :param app: App instance\n        :return:",
+        "detail": "droidbot.adapter.process_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "QEMUConnException",
+        "kind": 6,
+        "importPath": "droidbot.adapter.qemu",
+        "description": "droidbot.adapter.qemu",
+        "peekOfCode": "class QEMUConnException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass EOF(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass",
+        "detail": "droidbot.adapter.qemu",
+        "documentation": {}
+    },
+    {
+        "label": "EOF",
+        "kind": 6,
+        "importPath": "droidbot.adapter.qemu",
+        "description": "droidbot.adapter.qemu",
+        "peekOfCode": "class EOF(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass QEMUConn(Adapter):\n    \"\"\"\n    a connection with QEMU.\n    \"\"\"\n    def __init__(self, hda, telnet_port, hostfwd_port, qemu_no_graphic):",
+        "detail": "droidbot.adapter.qemu",
+        "documentation": {}
+    },
+    {
+        "label": "QEMUConn",
+        "kind": 6,
+        "importPath": "droidbot.adapter.qemu",
+        "description": "droidbot.adapter.qemu",
+        "peekOfCode": "class QEMUConn(Adapter):\n    \"\"\"\n    a connection with QEMU.\n    \"\"\"\n    def __init__(self, hda, telnet_port, hostfwd_port, qemu_no_graphic):\n        \"\"\"\n        initiate a QEMU connection\n        :return:\n        \"\"\"\n        logging.basicConfig(level=logging.INFO)",
+        "detail": "droidbot.adapter.qemu",
+        "documentation": {}
+    },
+    {
+        "label": "QEMU_START_DELAY",
+        "kind": 5,
+        "importPath": "droidbot.adapter.qemu",
+        "description": "droidbot.adapter.qemu",
+        "peekOfCode": "QEMU_START_DELAY = 60\nclass QEMUConnException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass EOF(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"",
+        "detail": "droidbot.adapter.qemu",
+        "documentation": {}
+    },
+    {
+        "label": "TelnetException",
+        "kind": 6,
+        "importPath": "droidbot.adapter.telnet",
+        "description": "droidbot.adapter.telnet",
+        "peekOfCode": "class TelnetException(Exception):\n    \"\"\"\n    Exception in telnet connection\n    \"\"\"\n    pass\nclass TelnetConsole(Adapter):\n    \"\"\"\n    interface of telnet console, see:\n    http://developer.android.com/tools/devices/emulator.html\n    \"\"\"",
+        "detail": "droidbot.adapter.telnet",
+        "documentation": {}
+    },
+    {
+        "label": "TelnetConsole",
+        "kind": 6,
+        "importPath": "droidbot.adapter.telnet",
+        "description": "droidbot.adapter.telnet",
+        "peekOfCode": "class TelnetConsole(Adapter):\n    \"\"\"\n    interface of telnet console, see:\n    http://developer.android.com/tools/devices/emulator.html\n    \"\"\"\n    def __init__(self, device=None, auth_token=None):\n        \"\"\"\n        Initiate a emulator console via telnet.\n        On some devices, an authentication token is required to use telnet\n        :param device: instance of Device",
+        "detail": "droidbot.adapter.telnet",
+        "documentation": {}
+    },
+    {
+        "label": "UserInputMonitor",
+        "kind": 6,
+        "importPath": "droidbot.adapter.user_input_monitor",
+        "description": "droidbot.adapter.user_input_monitor",
+        "peekOfCode": "class UserInputMonitor(Adapter):\n    \"\"\"\n    A connection with the target device through `getevent`.\n    `getevent` is able to get raw user input from device.\n    \"\"\"\n    def __init__(self, device=None):\n        \"\"\"\n        initialize connection\n        :param device: a Device instance\n        \"\"\"",
+        "detail": "droidbot.adapter.user_input_monitor",
+        "documentation": {}
+    },
+    {
+        "label": "DRLAgent",
+        "kind": 6,
+        "importPath": "droidbot.DRLAgent",
+        "description": "droidbot.DRLAgent",
+        "peekOfCode": "class DRLAgent:\n    def __init__(self):\n        # Define hyperparameters\n        self.num_episodes = 50\n        self.max_steps_per_episode = 500\n        self.batch_size = 32\n        self.gamma = 0.99\n        self.epsilon = 1.0\n        # Criar instâncias do ambiente, memória de replay e rede neural\n        self.env = DroidBotEnv()",
+        "detail": "droidbot.DRLAgent",
+        "documentation": {}
+    },
+    {
+        "label": "Game",
+        "kind": 6,
+        "importPath": "droidbot.DRLAgent",
+        "description": "droidbot.DRLAgent",
+        "peekOfCode": "class Game:\n    def __init__(self):\n        self.agent = DRLAgent()\n    def play(self):\n        state = self.agent.env.reset()  # Get the initial state of the environment\n        total_reward = 0\n        for _ in range(self.agent.max_steps_per_episode):\n            action = self.agent.predict(state)  # Predict the next action\n            next_state, reward, done = self.agent.env.step(action)\n            state = next_state",
+        "detail": "droidbot.DRLAgent",
+        "documentation": {}
+    },
+    {
+        "label": "game",
+        "kind": 5,
+        "importPath": "droidbot.DRLAgent",
+        "description": "droidbot.DRLAgent",
+        "peekOfCode": "game = Game()\ngame.play()",
+        "detail": "droidbot.DRLAgent",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "kind": 6,
+        "importPath": "droidbot.app",
+        "description": "droidbot.app",
+        "peekOfCode": "class App(object):\n    \"\"\"\n    this class describes an app\n    \"\"\"\n    def __init__(self, app_path, output_dir=None):\n        \"\"\"\n        create a App instance\n        :param app_path: local file path of app\n        :return:\n        \"\"\"",
+        "detail": "droidbot.app",
+        "documentation": {}
+    },
+    {
+        "label": "Device",
+        "kind": 6,
+        "importPath": "droidbot.device",
+        "description": "droidbot.device",
+        "peekOfCode": "class Device(object):\n    \"\"\"\n    this class describes a connected device\n    \"\"\"\n    def __init__(self, device_serial=None, is_emulator=False, output_dir=None,\n                 cv_mode=False, grant_perm=False, telnet_auth_token=None,\n                 enable_accessibility_hard=False, humanoid=None, ignore_ad=False):\n        \"\"\"\n        initialize a device connection\n        :param device_serial: serial number of target device",
+        "detail": "droidbot.device",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_NUM",
+        "kind": 5,
+        "importPath": "droidbot.device",
+        "description": "droidbot.device",
+        "peekOfCode": "DEFAULT_NUM = '1234567890'\nDEFAULT_CONTENT = 'Hello world!'\nclass Device(object):\n    \"\"\"\n    this class describes a connected device\n    \"\"\"\n    def __init__(self, device_serial=None, is_emulator=False, output_dir=None,\n                 cv_mode=False, grant_perm=False, telnet_auth_token=None,\n                 enable_accessibility_hard=False, humanoid=None, ignore_ad=False):\n        \"\"\"",
+        "detail": "droidbot.device",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_CONTENT",
+        "kind": 5,
+        "importPath": "droidbot.device",
+        "description": "droidbot.device",
+        "peekOfCode": "DEFAULT_CONTENT = 'Hello world!'\nclass Device(object):\n    \"\"\"\n    this class describes a connected device\n    \"\"\"\n    def __init__(self, device_serial=None, is_emulator=False, output_dir=None,\n                 cv_mode=False, grant_perm=False, telnet_auth_token=None,\n                 enable_accessibility_hard=False, humanoid=None, ignore_ad=False):\n        \"\"\"\n        initialize a device connection",
+        "detail": "droidbot.device",
+        "documentation": {}
+    },
+    {
+        "label": "DeviceState",
+        "kind": 6,
+        "importPath": "droidbot.device_state",
+        "description": "droidbot.device_state",
+        "peekOfCode": "class DeviceState(object):\n    \"\"\"\n    the state of the current device\n    \"\"\"\n    def __init__(self, device, views, foreground_activity, activity_stack, background_services,\n                 tag=None, screenshot_path=None):\n        self.device = device\n        self.foreground_activity = foreground_activity\n        self.activity_stack = activity_stack if isinstance(activity_stack, list) else []\n        self.background_services = background_services",
+        "detail": "droidbot.device_state",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBot",
+        "kind": 6,
+        "importPath": "droidbot.droidbot",
+        "description": "droidbot.droidbot",
+        "peekOfCode": "class DroidBot(object):\n    \"\"\"\n    The main class of droidbot\n    \"\"\"\n    # this is a single instance class\n    instance = None\n    def __init__(self,\n                 app_path=None,\n                 device_serial=None,\n                 is_emulator=False,",
+        "detail": "droidbot.droidbot",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotException",
+        "kind": 6,
+        "importPath": "droidbot.droidbot",
+        "description": "droidbot.droidbot",
+        "peekOfCode": "class DroidBotException(Exception):\n    pass",
+        "detail": "droidbot.droidbot",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotEnv",
+        "kind": 6,
+        "importPath": "droidbot.droidbot_env",
+        "description": "droidbot.droidbot_env",
+        "peekOfCode": "class DroidBotEnv(gym.Env):\n    def __init__(self, droidbot):\n        super(DroidBotEnv, self).__init__()\n        self.logger = logging.getLogger(self.__class__.__name__)\n        metadata = {\n            'render.modes': ['human'],\n            'video.frames_per_second': None\n        }\n        self.seed()\n        # Definir o otimizador",
+        "detail": "droidbot.droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "ADBConnector",
+        "kind": 6,
+        "importPath": "droidbot.droidbot_env",
+        "description": "droidbot.droidbot_env",
+        "peekOfCode": "class ADBConnector:\n    def __init__(self):\n        # Configurar o caminho para o executável do ADB\n        self.adb_path = '/caminho/para/o/adb'\n    def get_logs(self):\n        # Comando do ADB para obter os logs\n        cmd = [self.adb_path, 'logcat']\n        try:\n            # Executar o comando do ADB e capturar a saída\n            result = subprocess.run(cmd, capture_output=True, text=True)",
+        "detail": "droidbot.droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotCoverage",
+        "kind": 6,
+        "importPath": "droidbot.droidbot_env",
+        "description": "droidbot.droidbot_env",
+        "peekOfCode": "class DroidBotCoverage:\n    def __init__(self):\n        self.cov = coverage.Coverage(source=[\"path/to/my_module.py\"])  # Incluir o módulo relevante no escopo da cobertura\n        self.coverage_data = None\n        self.coverage_lock = threading.Lock()\n    def start_coverage(self):\n        self.cov.start()\n    def stop_coverage(self):\n        self.cov.stop()\n        self.coverage_lock.acquire()",
+        "detail": "droidbot.droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "ReplayMemory",
+        "kind": 6,
+        "importPath": "droidbot.droidbot_env",
+        "description": "droidbot.droidbot_env",
+        "peekOfCode": "class ReplayMemory:\n    def __init__(self, capacity):\n        self.capacity = capacity\n        self.memory = deque(maxlen=capacity)\n    def push(self, transition):\n        self.memory.append(transition)\n    def sample(self, batch_size):\n        return random.sample(self.memory, batch_size)\n    def __len__(self):\n        return len(self.memory)   ",
+        "detail": "droidbot.droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "QNetwork",
+        "kind": 6,
+        "importPath": "droidbot.droidbot_env",
+        "description": "droidbot.droidbot_env",
+        "peekOfCode": "class QNetwork(nn.Module):\n    def __init__(self, input_size, output_size, replay_memory):\n        super(QNetwork, self).__init__()\n        self.fc1 = nn.Linear(input_size, 64)\n        self.fc2 = nn.Linear(64, output_size)\n        self.replay_memory = replay_memory\n    def forward(self, x):\n        x = torch.relu(self.fc1(x))\n        x = self.fc2(x)\n        return x",
+        "detail": "droidbot.droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_GREEDY_DFS",
+        "kind": 5,
+        "importPath": "droidbot.droidbot_env",
+        "description": "droidbot.droidbot_env",
+        "peekOfCode": "POLICY_GREEDY_DFS = \"dfs_greedy\"\nPOLICY_GREEDY_BFS = \"bfs_greedy\"\nPOLICY_NONE = \"none\"\n#Definir a classe DroidBotEnv que herda da classe gym.Env\nclass DroidBotEnv(gym.Env):\n    def __init__(self, droidbot):\n        super(DroidBotEnv, self).__init__()\n        self.logger = logging.getLogger(self.__class__.__name__)\n        metadata = {\n            'render.modes': ['human'],",
+        "detail": "droidbot.droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_GREEDY_BFS",
+        "kind": 5,
+        "importPath": "droidbot.droidbot_env",
+        "description": "droidbot.droidbot_env",
+        "peekOfCode": "POLICY_GREEDY_BFS = \"bfs_greedy\"\nPOLICY_NONE = \"none\"\n#Definir a classe DroidBotEnv que herda da classe gym.Env\nclass DroidBotEnv(gym.Env):\n    def __init__(self, droidbot):\n        super(DroidBotEnv, self).__init__()\n        self.logger = logging.getLogger(self.__class__.__name__)\n        metadata = {\n            'render.modes': ['human'],\n            'video.frames_per_second': None",
+        "detail": "droidbot.droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_NONE",
+        "kind": 5,
+        "importPath": "droidbot.droidbot_env",
+        "description": "droidbot.droidbot_env",
+        "peekOfCode": "POLICY_NONE = \"none\"\n#Definir a classe DroidBotEnv que herda da classe gym.Env\nclass DroidBotEnv(gym.Env):\n    def __init__(self, droidbot):\n        super(DroidBotEnv, self).__init__()\n        self.logger = logging.getLogger(self.__class__.__name__)\n        metadata = {\n            'render.modes': ['human'],\n            'video.frames_per_second': None\n        }",
+        "detail": "droidbot.droidbot_env",
+        "documentation": {}
+    },
+    {
+        "label": "RPCHandler",
+        "kind": 6,
+        "importPath": "droidbot.droidmaster",
+        "description": "droidbot.droidmaster",
+        "peekOfCode": "class RPCHandler(SimpleXMLRPCRequestHandler):\n    def _dispatch(self, method, params):\n        try:\n            return self.server.funcs[method](*params)\n        except:\n            import traceback\n            traceback.print_exc()\n            raise\nclass DroidMaster(object):\n    \"\"\"",
+        "detail": "droidbot.droidmaster",
+        "documentation": {}
+    },
+    {
+        "label": "DroidMaster",
+        "kind": 6,
+        "importPath": "droidbot.droidmaster",
+        "description": "droidbot.droidmaster",
+        "peekOfCode": "class DroidMaster(object):\n    \"\"\"\n    The main class of droidmaster\n    DroidMaster currently supports QEMU instance pool only\n    \"\"\"\n    # this is a single instance class\n    instance = None\n    POLL_INTERVAL = 1\n    def __init__(self,\n                 app_path=None,",
+        "detail": "droidbot.droidmaster",
+        "documentation": {}
+    },
+    {
+        "label": "DroidMasterException",
+        "kind": 6,
+        "importPath": "droidbot.droidmaster",
+        "description": "droidbot.droidmaster",
+        "peekOfCode": "class DroidMasterException(Exception):\n    pass",
+        "detail": "droidbot.droidmaster",
+        "documentation": {}
+    },
+    {
+        "label": "UnknownEnvException",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class UnknownEnvException(Exception):\n    pass\nclass AppEnv(object):\n    \"\"\"\n    This class describes a environment attribute of device\n    \"\"\"\n    def to_dict(self):\n        return self.__dict__\n    def to_json(self):\n        return json.dumps(self.to_dict())",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "AppEnv",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class AppEnv(object):\n    \"\"\"\n    This class describes a environment attribute of device\n    \"\"\"\n    def to_dict(self):\n        return self.__dict__\n    def to_json(self):\n        return json.dumps(self.to_dict())\n    def __str__(self):\n        return self.to_dict().__str__()",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "StaticAppEnv",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class StaticAppEnv(AppEnv):\n    \"\"\"\n    This class describes a static environment attribute of device\n    \"\"\"\n    def deploy(self, device):\n        raise NotImplementedError\nclass DynamicAppEnv(AppEnv):\n    \"\"\"\n    This class describes a dynamic environment attribute of device\n    usually we need to start a thread for this",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "DynamicAppEnv",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class DynamicAppEnv(AppEnv):\n    \"\"\"\n    This class describes a dynamic environment attribute of device\n    usually we need to start a thread for this\n    \"\"\"\n    def deploy(self, device):\n        raise NotImplementedError\nclass ContactAppEnv(StaticAppEnv):\n    \"\"\"\n    This class describes a contact inside device",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ContactAppEnv",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class ContactAppEnv(StaticAppEnv):\n    \"\"\"\n    This class describes a contact inside device\n    \"\"\"\n    def __init__(self, name='Lynn', phone=\"1234567890\", email=\"droidbot@honeynet.com\", env_dict=None):\n        if env_dict is not None:\n            self.__dict__ = env_dict\n            return\n        self.name = name\n        self.phone = phone",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsAppEnv",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class SettingsAppEnv(StaticAppEnv):\n    \"\"\"\n    This class describes settings of device\n    \"\"\"\n    def __init__(self, table_name=\"system\", name=\"screen_brightness\", value=\"50\", env_dict=None):\n        if env_dict is not None:\n            self.__dict__ = env_dict\n            return\n        self.table_name = table_name\n        self.name = name",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "CallLogEnv",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class CallLogEnv(StaticAppEnv):\n    \"\"\"\n    call log\n    \"\"\"\n    def __init__(self, phone=\"1234567890\", call_in=True, accepted=True, env_dict=None):\n        \"\"\"\n        a call log\n        :param phone: str, phone number of contact\n        :param call_in: bool, True for call in, False for call out\n        :param accepted: whether the call is accepted",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "DummyFilesEnv",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class DummyFilesEnv(StaticAppEnv):\n    \"\"\"\n    push dummy files to device\n    \"\"\"\n    def __init__(self, dummy_files_dir=None):\n        \"\"\"\n        :param: dummy_files_dir: directory to dummy files\n        \"\"\"\n        if dummy_files_dir is None:\n            import pkg_resources",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "SMSLogEnv",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class SMSLogEnv(StaticAppEnv):\n    \"\"\"\n    SMS log\n    \"\"\"\n    def __init__(self, phone=\"1234567890\", sms_in=True, content=\"Hello world\", env_dict=None):\n        \"\"\"\n        a call log\n        :param phone: str, phone number of contact\n        :param sms_in: bool, True for income message, False for outcome\n        :param content: content of message",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "GPSAppEnv",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class GPSAppEnv(DynamicAppEnv):\n    \"\"\"\n    This class describes the continuous updating GPS data inside device\n    \"\"\"\n    def __init__(self, center_x=50, center_y=50, delta_x=1, delta_y=1, env_dict=None):\n        if env_dict is not None:\n            self.__dict__ = env_dict\n            return\n        self.center_x = center_x\n        self.center_y = center_y",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "AppEnvManager",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class AppEnvManager(object):\n    \"\"\"\n    AppEnvManager manages the environment of device in which an app will run.\n    \"\"\"\n    def __init__(self, device, app, env_policy):\n        \"\"\"\n        construct a new AppEnvManager instance\n        :param device: instance of Device\n        :param app: instance of App\n        :param env_policy: policy of setting up environment, string",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "AppEnvFactory",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class AppEnvFactory(object):\n    \"\"\"\n    This class is responsible for produce a list of static and dynamic AppEnv\n    \"\"\"\n    def produce_envs(self):\n        return []\nclass DummyEnvFactory(AppEnvFactory):\n    \"\"\"\n    A dummy factory which generate randomized app environment\n    \"\"\"",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "DummyEnvFactory",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class DummyEnvFactory(AppEnvFactory):\n    \"\"\"\n    A dummy factory which generate randomized app environment\n    \"\"\"\n    def produce_envs(self):\n        \"\"\"\n        produce a list of dummy environment\n        \"\"\"\n        envs = [ContactAppEnv(), SettingsAppEnv(), CallLogEnv(), SMSLogEnv(), GPSAppEnv(), DummyFilesEnv()]\n        return envs",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "StaticEnvFactory",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class StaticEnvFactory(AppEnvFactory):\n    \"\"\"\n    A factory which generate ad hoc environment based on static analysis result of app\n    \"\"\"\n    def __init__(self, app):\n        \"\"\"\n        create a StaticEnvFactory from app analysis result\n        \"\"\"\n        self.app = app\n    def produce_envs(self):",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "FileEnvFactory",
+        "kind": 6,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "class FileEnvFactory(AppEnvFactory):\n    \"\"\"\n    A factory which generate environment from file\n    \"\"\"\n    def __init__(self, env_file):\n        \"\"\"\n        create a FileEnvFactory from a json file\n        :param env_file path string\n        \"\"\"\n        self.envs = []",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_NONE",
+        "kind": 5,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "POLICY_NONE = \"none\"\nPOLICY_DUMMY = \"dummy\"\nPOLICY_STATIC = \"static\"\nDEFAULT_POLICY = POLICY_NONE\nclass UnknownEnvException(Exception):\n    pass\nclass AppEnv(object):\n    \"\"\"\n    This class describes a environment attribute of device\n    \"\"\"",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_DUMMY",
+        "kind": 5,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "POLICY_DUMMY = \"dummy\"\nPOLICY_STATIC = \"static\"\nDEFAULT_POLICY = POLICY_NONE\nclass UnknownEnvException(Exception):\n    pass\nclass AppEnv(object):\n    \"\"\"\n    This class describes a environment attribute of device\n    \"\"\"\n    def to_dict(self):",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_STATIC",
+        "kind": 5,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "POLICY_STATIC = \"static\"\nDEFAULT_POLICY = POLICY_NONE\nclass UnknownEnvException(Exception):\n    pass\nclass AppEnv(object):\n    \"\"\"\n    This class describes a environment attribute of device\n    \"\"\"\n    def to_dict(self):\n        return self.__dict__",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_POLICY",
+        "kind": 5,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "DEFAULT_POLICY = POLICY_NONE\nclass UnknownEnvException(Exception):\n    pass\nclass AppEnv(object):\n    \"\"\"\n    This class describes a environment attribute of device\n    \"\"\"\n    def to_dict(self):\n        return self.__dict__\n    def to_json(self):",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ENV_TYPES",
+        "kind": 5,
+        "importPath": "droidbot.env_manager",
+        "description": "droidbot.env_manager",
+        "peekOfCode": "ENV_TYPES = {\n    'contact': ContactAppEnv,\n    'settings': SettingsAppEnv,\n    'calllog': CallLogEnv,\n    'smslog': SMSLogEnv,\n    'gps': GPSAppEnv\n}\nclass AppEnvManager(object):\n    \"\"\"\n    AppEnvManager manages the environment of device in which an app will run.",
+        "detail": "droidbot.env_manager",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidEventException",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class InvalidEventException(Exception):\n    pass\nclass InputEvent(object):\n    \"\"\"\n    The base class of all events\n    \"\"\"\n    def to_dict(self):\n        return self.__dict__\n    def to_json(self):\n        return json.dumps(self.to_dict())",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "InputEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class InputEvent(object):\n    \"\"\"\n    The base class of all events\n    \"\"\"\n    def to_dict(self):\n        return self.__dict__\n    def to_json(self):\n        return json.dumps(self.to_dict())\n    def __str__(self):\n        return self.to_dict().__str__()",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "EventLog",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class EventLog(object):\n    \"\"\"\n    save an event to local file system\n    \"\"\"\n    def __init__(self, device, app, event, profiling_method=None, tag=None):\n        self.device = device\n        self.app = app\n        self.event = event\n        if tag is None:\n            from datetime import datetime",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "ManualEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class ManualEvent(InputEvent):\n    \"\"\"\n    a manual event\n    \"\"\"\n    def __init__(self, event_dict=None):\n        self.event_type = KEY_ManualEvent\n        self.time = time.time()\n        if event_dict is not None:\n            self.__dict__.update(event_dict)\n    @staticmethod",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "ExitEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class ExitEvent(InputEvent):\n    \"\"\"\n    an event to stop testing\n    \"\"\"\n    def __init__(self, event_dict=None):\n        self.event_type = KEY_ExitEvent\n        if event_dict is not None:\n            self.__dict__.update(event_dict)\n    @staticmethod\n    def get_random_instance(device, app):",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KeyEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class KeyEvent(InputEvent):\n    \"\"\"\n    a key pressing event\n    \"\"\"\n    def __init__(self, name=None, event_dict=None):\n        self.event_type = KEY_KeyEvent\n        self.name = name\n        if event_dict is not None:\n            self.__dict__.update(event_dict)\n    @staticmethod",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "UIEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class UIEvent(InputEvent):\n    \"\"\"\n    This class describes a UI event of app, such as touch, click, etc\n    \"\"\"\n    def send(self, device):\n        raise NotImplementedError\n    @staticmethod\n    def get_random_instance(device, app):\n        if not device.is_foreground(app):\n            # if current app is in background, bring it to foreground",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "TouchEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class TouchEvent(UIEvent):\n    \"\"\"\n    a touch on screen\n    \"\"\"\n    def __init__(self, x=None, y=None, view=None, event_dict=None):\n        self.event_type = KEY_TouchEvent\n        self.x = x\n        self.y = y\n        self.view = view\n        if event_dict is not None:",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "LongTouchEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class LongTouchEvent(UIEvent):\n    \"\"\"\n    a long touch on screen\n    \"\"\"\n    def __init__(self, x=None, y=None, view=None, duration=2000, event_dict=None):\n        self.event_type = KEY_LongTouchEvent\n        self.x = x\n        self.y = y\n        self.view = view\n        self.duration = duration",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "SwipeEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class SwipeEvent(UIEvent):\n    \"\"\"\n    a drag gesture on screen\n    \"\"\"\n    def __init__(self,\n                 start_x=None, start_y=None, start_view=None,\n                 end_x=None, end_y=None, end_view=None,\n                 duration=1000, event_dict=None):\n        self.event_type = KEY_SwipeEvent\n        self.start_x = start_x",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "ScrollEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class ScrollEvent(UIEvent):\n    \"\"\"\n    swipe gesture\n    \"\"\"\n    def __init__(self, x=None, y=None, view=None, direction=\"DOWN\", event_dict=None):\n        self.event_type = KEY_ScrollEvent\n        self.x = x\n        self.y = y\n        self.view = view\n        self.direction = direction",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "SetTextEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class SetTextEvent(UIEvent):\n    \"\"\"\n    input text to target UI\n    \"\"\"\n    @staticmethod\n    def get_random_instance(device, app):\n        pass\n    def __init__(self, x=None, y=None, view=None, text=None, event_dict=None):\n        self.event_type = KEY_SetTextEvent\n        self.x = x",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "IntentEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class IntentEvent(InputEvent):\n    \"\"\"\n    An event describing an intent\n    \"\"\"\n    def __init__(self, intent=None, event_dict=None):\n        self.event_type = KEY_IntentEvent\n        if isinstance(intent, Intent):\n            self.intent = intent.get_cmd()\n        elif isinstance(intent, str):\n            self.intent = intent",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "SpawnEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "class SpawnEvent(InputEvent):\n    \"\"\"\n    An event to spawn then stop testing\n    \"\"\"\n    def __init__(self, event_dict=None):\n        self.event_type = KEY_SpawnEvent\n        if event_dict is not None:\n            self.__dict__.update(event_dict)\n    @staticmethod\n    def get_random_instance(device, app):",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "POSSIBLE_KEYS",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "POSSIBLE_KEYS = [\n    \"BACK\",\n    \"MENU\",\n    \"HOME\"\n]\n# Unused currently, but should be useful.\nPOSSIBLE_BROADCASTS = [\n    \"android.intent.action.AIRPLANE_MODE_CHANGED\",\n    \"android.intent.action.BATTERY_CHANGED\",\n    \"android.intent.action.BATTERY_LOW\",",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "POSSIBLE_BROADCASTS",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "POSSIBLE_BROADCASTS = [\n    \"android.intent.action.AIRPLANE_MODE_CHANGED\",\n    \"android.intent.action.BATTERY_CHANGED\",\n    \"android.intent.action.BATTERY_LOW\",\n    \"android.intent.action.BATTERY_OKAY\",\n    \"android.intent.action.BOOT_COMPLETED\",\n    \"android.intent.action.DATE_CHANGED\",\n    \"android.intent.action.DEVICE_STORAGE_LOW\",\n    \"android.intent.action.DEVICE_STORAGE_OK\",\n    \"android.intent.action.INPUT_METHOD_CHANGED\",",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KEY_KeyEvent",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "KEY_KeyEvent = \"key\"\nKEY_ManualEvent = \"manual\"\nKEY_ExitEvent = \"exit\"\nKEY_TouchEvent = \"touch\"\nKEY_LongTouchEvent = \"long_touch\"\nKEY_SwipeEvent = \"swipe\"\nKEY_ScrollEvent = \"scroll\"\nKEY_SetTextEvent = \"set_text\"\nKEY_IntentEvent = \"intent\"\nKEY_SpawnEvent = \"spawn\"",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KEY_ManualEvent",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "KEY_ManualEvent = \"manual\"\nKEY_ExitEvent = \"exit\"\nKEY_TouchEvent = \"touch\"\nKEY_LongTouchEvent = \"long_touch\"\nKEY_SwipeEvent = \"swipe\"\nKEY_ScrollEvent = \"scroll\"\nKEY_SetTextEvent = \"set_text\"\nKEY_IntentEvent = \"intent\"\nKEY_SpawnEvent = \"spawn\"\nclass InvalidEventException(Exception):",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KEY_ExitEvent",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "KEY_ExitEvent = \"exit\"\nKEY_TouchEvent = \"touch\"\nKEY_LongTouchEvent = \"long_touch\"\nKEY_SwipeEvent = \"swipe\"\nKEY_ScrollEvent = \"scroll\"\nKEY_SetTextEvent = \"set_text\"\nKEY_IntentEvent = \"intent\"\nKEY_SpawnEvent = \"spawn\"\nclass InvalidEventException(Exception):\n    pass",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KEY_TouchEvent",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "KEY_TouchEvent = \"touch\"\nKEY_LongTouchEvent = \"long_touch\"\nKEY_SwipeEvent = \"swipe\"\nKEY_ScrollEvent = \"scroll\"\nKEY_SetTextEvent = \"set_text\"\nKEY_IntentEvent = \"intent\"\nKEY_SpawnEvent = \"spawn\"\nclass InvalidEventException(Exception):\n    pass\nclass InputEvent(object):",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KEY_LongTouchEvent",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "KEY_LongTouchEvent = \"long_touch\"\nKEY_SwipeEvent = \"swipe\"\nKEY_ScrollEvent = \"scroll\"\nKEY_SetTextEvent = \"set_text\"\nKEY_IntentEvent = \"intent\"\nKEY_SpawnEvent = \"spawn\"\nclass InvalidEventException(Exception):\n    pass\nclass InputEvent(object):\n    \"\"\"",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KEY_SwipeEvent",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "KEY_SwipeEvent = \"swipe\"\nKEY_ScrollEvent = \"scroll\"\nKEY_SetTextEvent = \"set_text\"\nKEY_IntentEvent = \"intent\"\nKEY_SpawnEvent = \"spawn\"\nclass InvalidEventException(Exception):\n    pass\nclass InputEvent(object):\n    \"\"\"\n    The base class of all events",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KEY_ScrollEvent",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "KEY_ScrollEvent = \"scroll\"\nKEY_SetTextEvent = \"set_text\"\nKEY_IntentEvent = \"intent\"\nKEY_SpawnEvent = \"spawn\"\nclass InvalidEventException(Exception):\n    pass\nclass InputEvent(object):\n    \"\"\"\n    The base class of all events\n    \"\"\"",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KEY_SetTextEvent",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "KEY_SetTextEvent = \"set_text\"\nKEY_IntentEvent = \"intent\"\nKEY_SpawnEvent = \"spawn\"\nclass InvalidEventException(Exception):\n    pass\nclass InputEvent(object):\n    \"\"\"\n    The base class of all events\n    \"\"\"\n    def to_dict(self):",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KEY_IntentEvent",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "KEY_IntentEvent = \"intent\"\nKEY_SpawnEvent = \"spawn\"\nclass InvalidEventException(Exception):\n    pass\nclass InputEvent(object):\n    \"\"\"\n    The base class of all events\n    \"\"\"\n    def to_dict(self):\n        return self.__dict__",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "KEY_SpawnEvent",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "KEY_SpawnEvent = \"spawn\"\nclass InvalidEventException(Exception):\n    pass\nclass InputEvent(object):\n    \"\"\"\n    The base class of all events\n    \"\"\"\n    def to_dict(self):\n        return self.__dict__\n    def to_json(self):",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_TYPES",
+        "kind": 5,
+        "importPath": "droidbot.input_event",
+        "description": "droidbot.input_event",
+        "peekOfCode": "EVENT_TYPES = {\n    KEY_KeyEvent: KeyEvent,\n    KEY_TouchEvent: TouchEvent,\n    KEY_LongTouchEvent: LongTouchEvent,\n    KEY_SwipeEvent: SwipeEvent,\n    KEY_ScrollEvent: ScrollEvent,\n    KEY_IntentEvent: IntentEvent,\n    KEY_SpawnEvent: SpawnEvent\n}",
+        "detail": "droidbot.input_event",
+        "documentation": {}
+    },
+    {
+        "label": "UnknownInputException",
+        "kind": 6,
+        "importPath": "droidbot.input_manager",
+        "description": "droidbot.input_manager",
+        "peekOfCode": "class UnknownInputException(Exception):\n    pass\nclass InputManager(object):\n    \"\"\"\n    This class manages all events to send during app running\n    \"\"\"\n    def __init__(self, device, app, policy_name, random_input,\n                 event_count, event_interval,\n                 script_path=None, profiling_method=None, master=None,\n                 replay_output=None):",
+        "detail": "droidbot.input_manager",
+        "documentation": {}
+    },
+    {
+        "label": "InputManager",
+        "kind": 6,
+        "importPath": "droidbot.input_manager",
+        "description": "droidbot.input_manager",
+        "peekOfCode": "class InputManager(object):\n    \"\"\"\n    This class manages all events to send during app running\n    \"\"\"\n    def __init__(self, device, app, policy_name, random_input,\n                 event_count, event_interval,\n                 script_path=None, profiling_method=None, master=None,\n                 replay_output=None):\n        \"\"\"\n        manage input event sent to the target device",
+        "detail": "droidbot.input_manager",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_POLICY",
+        "kind": 5,
+        "importPath": "droidbot.input_manager",
+        "description": "droidbot.input_manager",
+        "peekOfCode": "DEFAULT_POLICY = POLICY_GREEDY_DFS\nDEFAULT_EVENT_INTERVAL = 1\nDEFAULT_EVENT_COUNT = 1000\nDEFAULT_TIMEOUT = -1\nclass UnknownInputException(Exception):\n    pass\nclass InputManager(object):\n    \"\"\"\n    This class manages all events to send during app running\n    \"\"\"",
+        "detail": "droidbot.input_manager",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_EVENT_INTERVAL",
+        "kind": 5,
+        "importPath": "droidbot.input_manager",
+        "description": "droidbot.input_manager",
+        "peekOfCode": "DEFAULT_EVENT_INTERVAL = 1\nDEFAULT_EVENT_COUNT = 1000\nDEFAULT_TIMEOUT = -1\nclass UnknownInputException(Exception):\n    pass\nclass InputManager(object):\n    \"\"\"\n    This class manages all events to send during app running\n    \"\"\"\n    def __init__(self, device, app, policy_name, random_input,",
+        "detail": "droidbot.input_manager",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_EVENT_COUNT",
+        "kind": 5,
+        "importPath": "droidbot.input_manager",
+        "description": "droidbot.input_manager",
+        "peekOfCode": "DEFAULT_EVENT_COUNT = 1000\nDEFAULT_TIMEOUT = -1\nclass UnknownInputException(Exception):\n    pass\nclass InputManager(object):\n    \"\"\"\n    This class manages all events to send during app running\n    \"\"\"\n    def __init__(self, device, app, policy_name, random_input,\n                 event_count, event_interval,",
+        "detail": "droidbot.input_manager",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_TIMEOUT",
+        "kind": 5,
+        "importPath": "droidbot.input_manager",
+        "description": "droidbot.input_manager",
+        "peekOfCode": "DEFAULT_TIMEOUT = -1\nclass UnknownInputException(Exception):\n    pass\nclass InputManager(object):\n    \"\"\"\n    This class manages all events to send during app running\n    \"\"\"\n    def __init__(self, device, app, policy_name, random_input,\n                 event_count, event_interval,\n                 script_path=None, profiling_method=None, master=None,",
+        "detail": "droidbot.input_manager",
+        "documentation": {}
+    },
+    {
+        "label": "InputInterruptedException",
+        "kind": 6,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "class InputInterruptedException(Exception):\n    pass\nclass InputPolicy(object):\n    \"\"\"\n    This class is responsible for generating events to stimulate more app behaviour\n    It should call AppEventManager.send_event method continuously\n    \"\"\"\n    def __init__(self, device, app, is_gym_policy=False):\n        self.logger = logging.getLogger(self.__class__.__name__)\n        self.device = device",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "InputPolicy",
+        "kind": 6,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "class InputPolicy(object):\n    \"\"\"\n    This class is responsible for generating events to stimulate more app behaviour\n    It should call AppEventManager.send_event method continuously\n    \"\"\"\n    def __init__(self, device, app, is_gym_policy=False):\n        self.logger = logging.getLogger(self.__class__.__name__)\n        self.device = device\n        self.app = app\n        self.master = None",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "NoneInputPolicy",
+        "kind": 6,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "class NoneInputPolicy(InputPolicy):\n    \"\"\"\n    do not send any event\n    \"\"\"\n    def __init__(self, device, app):\n        super(NoneInputPolicy, self).__init__(device, app)\n    def generate_event(self):\n        \"\"\"\n        generate an event\n        @return:",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "UtgBasedInputPolicy",
+        "kind": 6,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "class UtgBasedInputPolicy(InputPolicy):\n    \"\"\"\n    state-based input policy\n    \"\"\"\n    def __init__(self, device, app, random_input, is_gym_policy=False):\n        super(UtgBasedInputPolicy, self).__init__(device, app, is_gym_policy)\n        self.random_input = random_input\n        self.script = None\n        self.master = None\n        self.script_events = []",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "UtgNaiveSearchPolicy",
+        "kind": 6,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "class UtgNaiveSearchPolicy(UtgBasedInputPolicy):\n    \"\"\"\n    depth-first strategy to explore UFG (old)\n    \"\"\"\n    def __init__(self, device, app, random_input, search_method):\n        super(UtgNaiveSearchPolicy, self).__init__(device, app, random_input)\n        self.logger = logging.getLogger(self.__class__.__name__)\n        self.explored_views = set()\n        self.state_transitions = set()\n        self.search_method = search_method",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "UtgGreedySearchPolicy",
+        "kind": 6,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "class UtgGreedySearchPolicy(UtgBasedInputPolicy):\n    \"\"\"\n    DFS/BFS (according to search_method) strategy to explore UFG (new)\n    \"\"\"\n    def __init__(self, device, app, random_input, search_method):\n        super(UtgGreedySearchPolicy, self).__init__(device, app, random_input)\n        self.logger = logging.getLogger(self.__class__.__name__)\n        self.search_method = search_method\n        self.preferred_buttons = [\"yes\", \"ok\", \"activate\", \"detail\", \"more\", \"access\",\n                                  \"allow\", \"check\", \"agree\", \"try\", \"go\", \"next\"]",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "UtgReplayPolicy",
+        "kind": 6,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "class UtgReplayPolicy(InputPolicy):\n    \"\"\"\n    Replay DroidBot output generated by UTG policy\n    \"\"\"\n    def __init__(self, device, app, replay_output):\n        super(UtgReplayPolicy, self).__init__(device, app)\n        self.logger = logging.getLogger(self.__class__.__name__)\n        self.replay_output = replay_output\n        import os\n        event_dir = os.path.join(replay_output, \"events\")",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "ManualPolicy",
+        "kind": 6,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "class ManualPolicy(UtgBasedInputPolicy):\n    \"\"\"\n    manually explore UFG\n    \"\"\"\n    def __init__(self, device, app):\n        super(ManualPolicy, self).__init__(device, app, False)\n        self.logger = logging.getLogger(self.__class__.__name__)\n        self.__first_event = True\n    def generate_event_based_on_utg(self):\n        \"\"\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "UtgGymPolicy",
+        "kind": 6,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "class UtgGymPolicy(UtgBasedInputPolicy):\n    \"\"\"\n    Gym Policy\n    \"\"\"\n    def __init__(self, device, app, random_input, search_method, is_gym_policy=True):\n        super(UtgGymPolicy, self).__init__(device, app, random_input, is_gym_policy)\n        self.logger = logging.getLogger(self.__class__.__name__)\n        self.search_method = search_method\n        self.preferred_buttons = [\"yes\", \"ok\", \"activate\", \"detail\", \"more\", \"access\",\n                                  \"allow\", \"check\", \"agree\", \"try\", \"go\", \"next\"]",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_NUM_RESTARTS",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "MAX_NUM_RESTARTS = 5\n# Max number of steps outside the app\nMAX_NUM_STEPS_OUTSIDE = 5\nMAX_NUM_STEPS_OUTSIDE_KILL = 10\n# Max number of replay tries\nMAX_REPLY_TRIES = 5\n# Some input event flags\nEVENT_FLAG_STARTED = \"+started\"\nEVENT_FLAG_START_APP = \"+start_app\"\nEVENT_FLAG_STOP_APP = \"+stop_app\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_NUM_STEPS_OUTSIDE",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "MAX_NUM_STEPS_OUTSIDE = 5\nMAX_NUM_STEPS_OUTSIDE_KILL = 10\n# Max number of replay tries\nMAX_REPLY_TRIES = 5\n# Some input event flags\nEVENT_FLAG_STARTED = \"+started\"\nEVENT_FLAG_START_APP = \"+start_app\"\nEVENT_FLAG_STOP_APP = \"+stop_app\"\nEVENT_FLAG_EXPLORE = \"+explore\"\nEVENT_FLAG_NAVIGATE = \"+navigate\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_NUM_STEPS_OUTSIDE_KILL",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "MAX_NUM_STEPS_OUTSIDE_KILL = 10\n# Max number of replay tries\nMAX_REPLY_TRIES = 5\n# Some input event flags\nEVENT_FLAG_STARTED = \"+started\"\nEVENT_FLAG_START_APP = \"+start_app\"\nEVENT_FLAG_STOP_APP = \"+stop_app\"\nEVENT_FLAG_EXPLORE = \"+explore\"\nEVENT_FLAG_NAVIGATE = \"+navigate\"\nEVENT_FLAG_TOUCH = \"+touch\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_REPLY_TRIES",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "MAX_REPLY_TRIES = 5\n# Some input event flags\nEVENT_FLAG_STARTED = \"+started\"\nEVENT_FLAG_START_APP = \"+start_app\"\nEVENT_FLAG_STOP_APP = \"+stop_app\"\nEVENT_FLAG_EXPLORE = \"+explore\"\nEVENT_FLAG_NAVIGATE = \"+navigate\"\nEVENT_FLAG_TOUCH = \"+touch\"\n# Policy taxanomy\nPOLICY_NAIVE_DFS = \"dfs_naive\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_FLAG_STARTED",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "EVENT_FLAG_STARTED = \"+started\"\nEVENT_FLAG_START_APP = \"+start_app\"\nEVENT_FLAG_STOP_APP = \"+stop_app\"\nEVENT_FLAG_EXPLORE = \"+explore\"\nEVENT_FLAG_NAVIGATE = \"+navigate\"\nEVENT_FLAG_TOUCH = \"+touch\"\n# Policy taxanomy\nPOLICY_NAIVE_DFS = \"dfs_naive\"\nPOLICY_GREEDY_DFS = \"dfs_greedy\"\nPOLICY_NAIVE_BFS = \"bfs_naive\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_FLAG_START_APP",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "EVENT_FLAG_START_APP = \"+start_app\"\nEVENT_FLAG_STOP_APP = \"+stop_app\"\nEVENT_FLAG_EXPLORE = \"+explore\"\nEVENT_FLAG_NAVIGATE = \"+navigate\"\nEVENT_FLAG_TOUCH = \"+touch\"\n# Policy taxanomy\nPOLICY_NAIVE_DFS = \"dfs_naive\"\nPOLICY_GREEDY_DFS = \"dfs_greedy\"\nPOLICY_NAIVE_BFS = \"bfs_naive\"\nPOLICY_GREEDY_BFS = \"bfs_greedy\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_FLAG_STOP_APP",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "EVENT_FLAG_STOP_APP = \"+stop_app\"\nEVENT_FLAG_EXPLORE = \"+explore\"\nEVENT_FLAG_NAVIGATE = \"+navigate\"\nEVENT_FLAG_TOUCH = \"+touch\"\n# Policy taxanomy\nPOLICY_NAIVE_DFS = \"dfs_naive\"\nPOLICY_GREEDY_DFS = \"dfs_greedy\"\nPOLICY_NAIVE_BFS = \"bfs_naive\"\nPOLICY_GREEDY_BFS = \"bfs_greedy\"\nPOLICY_REPLAY = \"replay\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_FLAG_EXPLORE",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "EVENT_FLAG_EXPLORE = \"+explore\"\nEVENT_FLAG_NAVIGATE = \"+navigate\"\nEVENT_FLAG_TOUCH = \"+touch\"\n# Policy taxanomy\nPOLICY_NAIVE_DFS = \"dfs_naive\"\nPOLICY_GREEDY_DFS = \"dfs_greedy\"\nPOLICY_NAIVE_BFS = \"bfs_naive\"\nPOLICY_GREEDY_BFS = \"bfs_greedy\"\nPOLICY_REPLAY = \"replay\"\nPOLICY_MANUAL = \"manual\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_FLAG_NAVIGATE",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "EVENT_FLAG_NAVIGATE = \"+navigate\"\nEVENT_FLAG_TOUCH = \"+touch\"\n# Policy taxanomy\nPOLICY_NAIVE_DFS = \"dfs_naive\"\nPOLICY_GREEDY_DFS = \"dfs_greedy\"\nPOLICY_NAIVE_BFS = \"bfs_naive\"\nPOLICY_GREEDY_BFS = \"bfs_greedy\"\nPOLICY_REPLAY = \"replay\"\nPOLICY_MANUAL = \"manual\"\nPOLICY_MONKEY = \"monkey\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_FLAG_TOUCH",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "EVENT_FLAG_TOUCH = \"+touch\"\n# Policy taxanomy\nPOLICY_NAIVE_DFS = \"dfs_naive\"\nPOLICY_GREEDY_DFS = \"dfs_greedy\"\nPOLICY_NAIVE_BFS = \"bfs_naive\"\nPOLICY_GREEDY_BFS = \"bfs_greedy\"\nPOLICY_REPLAY = \"replay\"\nPOLICY_MANUAL = \"manual\"\nPOLICY_MONKEY = \"monkey\"\nPOLICY_NONE = \"none\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_NAIVE_DFS",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "POLICY_NAIVE_DFS = \"dfs_naive\"\nPOLICY_GREEDY_DFS = \"dfs_greedy\"\nPOLICY_NAIVE_BFS = \"bfs_naive\"\nPOLICY_GREEDY_BFS = \"bfs_greedy\"\nPOLICY_REPLAY = \"replay\"\nPOLICY_MANUAL = \"manual\"\nPOLICY_MONKEY = \"monkey\"\nPOLICY_NONE = \"none\"\nPOLICY_GYM = \"gym\"\nclass InputInterruptedException(Exception):",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_GREEDY_DFS",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "POLICY_GREEDY_DFS = \"dfs_greedy\"\nPOLICY_NAIVE_BFS = \"bfs_naive\"\nPOLICY_GREEDY_BFS = \"bfs_greedy\"\nPOLICY_REPLAY = \"replay\"\nPOLICY_MANUAL = \"manual\"\nPOLICY_MONKEY = \"monkey\"\nPOLICY_NONE = \"none\"\nPOLICY_GYM = \"gym\"\nclass InputInterruptedException(Exception):\n    pass",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_NAIVE_BFS",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "POLICY_NAIVE_BFS = \"bfs_naive\"\nPOLICY_GREEDY_BFS = \"bfs_greedy\"\nPOLICY_REPLAY = \"replay\"\nPOLICY_MANUAL = \"manual\"\nPOLICY_MONKEY = \"monkey\"\nPOLICY_NONE = \"none\"\nPOLICY_GYM = \"gym\"\nclass InputInterruptedException(Exception):\n    pass\nclass InputPolicy(object):",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_GREEDY_BFS",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "POLICY_GREEDY_BFS = \"bfs_greedy\"\nPOLICY_REPLAY = \"replay\"\nPOLICY_MANUAL = \"manual\"\nPOLICY_MONKEY = \"monkey\"\nPOLICY_NONE = \"none\"\nPOLICY_GYM = \"gym\"\nclass InputInterruptedException(Exception):\n    pass\nclass InputPolicy(object):\n    \"\"\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_REPLAY",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "POLICY_REPLAY = \"replay\"\nPOLICY_MANUAL = \"manual\"\nPOLICY_MONKEY = \"monkey\"\nPOLICY_NONE = \"none\"\nPOLICY_GYM = \"gym\"\nclass InputInterruptedException(Exception):\n    pass\nclass InputPolicy(object):\n    \"\"\"\n    This class is responsible for generating events to stimulate more app behaviour",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_MANUAL",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "POLICY_MANUAL = \"manual\"\nPOLICY_MONKEY = \"monkey\"\nPOLICY_NONE = \"none\"\nPOLICY_GYM = \"gym\"\nclass InputInterruptedException(Exception):\n    pass\nclass InputPolicy(object):\n    \"\"\"\n    This class is responsible for generating events to stimulate more app behaviour\n    It should call AppEventManager.send_event method continuously",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_MONKEY",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "POLICY_MONKEY = \"monkey\"\nPOLICY_NONE = \"none\"\nPOLICY_GYM = \"gym\"\nclass InputInterruptedException(Exception):\n    pass\nclass InputPolicy(object):\n    \"\"\"\n    This class is responsible for generating events to stimulate more app behaviour\n    It should call AppEventManager.send_event method continuously\n    \"\"\"",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_NONE",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "POLICY_NONE = \"none\"\nPOLICY_GYM = \"gym\"\nclass InputInterruptedException(Exception):\n    pass\nclass InputPolicy(object):\n    \"\"\"\n    This class is responsible for generating events to stimulate more app behaviour\n    It should call AppEventManager.send_event method continuously\n    \"\"\"\n    def __init__(self, device, app, is_gym_policy=False):",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "POLICY_GYM",
+        "kind": 5,
+        "importPath": "droidbot.input_policy",
+        "description": "droidbot.input_policy",
+        "peekOfCode": "POLICY_GYM = \"gym\"\nclass InputInterruptedException(Exception):\n    pass\nclass InputPolicy(object):\n    \"\"\"\n    This class is responsible for generating events to stimulate more app behaviour\n    It should call AppEventManager.send_event method continuously\n    \"\"\"\n    def __init__(self, device, app, is_gym_policy=False):\n        self.logger = logging.getLogger(self.__class__.__name__)",
+        "detail": "droidbot.input_policy",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotScript",
+        "kind": 6,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "class DroidBotScript(object):\n    \"\"\"\n    DroidBotScript is a DSL for customizing input for certain states\n    \"\"\"\n    script_grammar = {\n        'views': {\n            VIEW_ID: ViewSelector_VAL\n        },\n        'states': {\n            STATE_ID: StateSelector_VAL",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "ViewSelector",
+        "kind": 6,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "class ViewSelector(object):\n    \"\"\"\n    selector used to select a view\n    \"\"\"\n    selector_grammar = {\n        'text': REGEX_VAL,\n        'resource_id': REGEX_VAL,\n        'class': REGEX_VAL,\n        'out_coordinates': [(INTEGER_VAL, INTEGER_VAL)],\n        'in_coordinates': [(INTEGER_VAL, INTEGER_VAL)]",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "StateSelector",
+        "kind": 6,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "class StateSelector(object):\n    \"\"\"\n    selector used to select a UI state\n    \"\"\"\n    selector_grammar = {\n        'activity': REGEX_VAL,\n        'services': [REGEX_VAL],\n        'views': [ViewSelector_VAL]\n    }\n    def __init__(self, state_selector_id, selector_dict, script):",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotOperation",
+        "kind": 6,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "class DroidBotOperation(object):\n    \"\"\"\n    an operation is what DroidBot do to target device\n    It might be a set of events, or an event policy\n    \"\"\"\n    custom_operation_grammar = [ScriptEvent_VAL]\n    def __init__(self, operation_id, event_list, script):\n        self.tag = self.__class__.__name__\n        self.id = operation_id\n        self.script = script",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "ScriptEvent",
+        "kind": 6,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "class ScriptEvent():\n    \"\"\"\n    an event defined in DroidBotScript\n    the grammar of ScriptEvent is similar with the InputEvent in dict format\n    but must be transformed before being used\n    \"\"\"\n    def __init__(self, event_dict):\n        self.event_dict = event_dict\n    def get_transformed_event(self, input_policy):\n        device = input_policy.device",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "ScriptSyntaxError",
+        "kind": 6,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "class ScriptSyntaxError(RuntimeError):\n    \"\"\"\n    syntax error of DroidBotScript\n    \"\"\"\n    pass",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "VIEW_ID",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "VIEW_ID = '<view_id>'\nSTATE_ID = '<state_id>'\nOPERATION_ID = '<operation_id>'\nDEFAULT_ID = 'default'\nINTEGER_VAL = 0\nREGEX_VAL = r'<regex>'\nEVENT_POLICY_VAL = '<event_policy>'\nEVENT_TYPE_VAL = '<event_type>'\nIDENTIFIER_RE = re.compile(r'^[^\\d\\W]\\w*\\Z', re.UNICODE)\nViewSelector_VAL = 'ViewSelector'",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "STATE_ID",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "STATE_ID = '<state_id>'\nOPERATION_ID = '<operation_id>'\nDEFAULT_ID = 'default'\nINTEGER_VAL = 0\nREGEX_VAL = r'<regex>'\nEVENT_POLICY_VAL = '<event_policy>'\nEVENT_TYPE_VAL = '<event_type>'\nIDENTIFIER_RE = re.compile(r'^[^\\d\\W]\\w*\\Z', re.UNICODE)\nViewSelector_VAL = 'ViewSelector'\nStateSelector_VAL = 'StateSelector'",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "OPERATION_ID",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "OPERATION_ID = '<operation_id>'\nDEFAULT_ID = 'default'\nINTEGER_VAL = 0\nREGEX_VAL = r'<regex>'\nEVENT_POLICY_VAL = '<event_policy>'\nEVENT_TYPE_VAL = '<event_type>'\nIDENTIFIER_RE = re.compile(r'^[^\\d\\W]\\w*\\Z', re.UNICODE)\nViewSelector_VAL = 'ViewSelector'\nStateSelector_VAL = 'StateSelector'\nDroidBotOperation_VAL = 'DroidBotOperation'",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ID",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "DEFAULT_ID = 'default'\nINTEGER_VAL = 0\nREGEX_VAL = r'<regex>'\nEVENT_POLICY_VAL = '<event_policy>'\nEVENT_TYPE_VAL = '<event_type>'\nIDENTIFIER_RE = re.compile(r'^[^\\d\\W]\\w*\\Z', re.UNICODE)\nViewSelector_VAL = 'ViewSelector'\nStateSelector_VAL = 'StateSelector'\nDroidBotOperation_VAL = 'DroidBotOperation'\nScriptEvent_VAL = 'ScriptEvent'",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "INTEGER_VAL",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "INTEGER_VAL = 0\nREGEX_VAL = r'<regex>'\nEVENT_POLICY_VAL = '<event_policy>'\nEVENT_TYPE_VAL = '<event_type>'\nIDENTIFIER_RE = re.compile(r'^[^\\d\\W]\\w*\\Z', re.UNICODE)\nViewSelector_VAL = 'ViewSelector'\nStateSelector_VAL = 'StateSelector'\nDroidBotOperation_VAL = 'DroidBotOperation'\nScriptEvent_VAL = 'ScriptEvent'\nclass DroidBotScript(object):",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "REGEX_VAL",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "REGEX_VAL = r'<regex>'\nEVENT_POLICY_VAL = '<event_policy>'\nEVENT_TYPE_VAL = '<event_type>'\nIDENTIFIER_RE = re.compile(r'^[^\\d\\W]\\w*\\Z', re.UNICODE)\nViewSelector_VAL = 'ViewSelector'\nStateSelector_VAL = 'StateSelector'\nDroidBotOperation_VAL = 'DroidBotOperation'\nScriptEvent_VAL = 'ScriptEvent'\nclass DroidBotScript(object):\n    \"\"\"",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_POLICY_VAL",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "EVENT_POLICY_VAL = '<event_policy>'\nEVENT_TYPE_VAL = '<event_type>'\nIDENTIFIER_RE = re.compile(r'^[^\\d\\W]\\w*\\Z', re.UNICODE)\nViewSelector_VAL = 'ViewSelector'\nStateSelector_VAL = 'StateSelector'\nDroidBotOperation_VAL = 'DroidBotOperation'\nScriptEvent_VAL = 'ScriptEvent'\nclass DroidBotScript(object):\n    \"\"\"\n    DroidBotScript is a DSL for customizing input for certain states",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "EVENT_TYPE_VAL",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "EVENT_TYPE_VAL = '<event_type>'\nIDENTIFIER_RE = re.compile(r'^[^\\d\\W]\\w*\\Z', re.UNICODE)\nViewSelector_VAL = 'ViewSelector'\nStateSelector_VAL = 'StateSelector'\nDroidBotOperation_VAL = 'DroidBotOperation'\nScriptEvent_VAL = 'ScriptEvent'\nclass DroidBotScript(object):\n    \"\"\"\n    DroidBotScript is a DSL for customizing input for certain states\n    \"\"\"",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "IDENTIFIER_RE",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "IDENTIFIER_RE = re.compile(r'^[^\\d\\W]\\w*\\Z', re.UNICODE)\nViewSelector_VAL = 'ViewSelector'\nStateSelector_VAL = 'StateSelector'\nDroidBotOperation_VAL = 'DroidBotOperation'\nScriptEvent_VAL = 'ScriptEvent'\nclass DroidBotScript(object):\n    \"\"\"\n    DroidBotScript is a DSL for customizing input for certain states\n    \"\"\"\n    script_grammar = {",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "ViewSelector_VAL",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "ViewSelector_VAL = 'ViewSelector'\nStateSelector_VAL = 'StateSelector'\nDroidBotOperation_VAL = 'DroidBotOperation'\nScriptEvent_VAL = 'ScriptEvent'\nclass DroidBotScript(object):\n    \"\"\"\n    DroidBotScript is a DSL for customizing input for certain states\n    \"\"\"\n    script_grammar = {\n        'views': {",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "StateSelector_VAL",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "StateSelector_VAL = 'StateSelector'\nDroidBotOperation_VAL = 'DroidBotOperation'\nScriptEvent_VAL = 'ScriptEvent'\nclass DroidBotScript(object):\n    \"\"\"\n    DroidBotScript is a DSL for customizing input for certain states\n    \"\"\"\n    script_grammar = {\n        'views': {\n            VIEW_ID: ViewSelector_VAL",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "DroidBotOperation_VAL",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "DroidBotOperation_VAL = 'DroidBotOperation'\nScriptEvent_VAL = 'ScriptEvent'\nclass DroidBotScript(object):\n    \"\"\"\n    DroidBotScript is a DSL for customizing input for certain states\n    \"\"\"\n    script_grammar = {\n        'views': {\n            VIEW_ID: ViewSelector_VAL\n        },",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "ScriptEvent_VAL",
+        "kind": 5,
+        "importPath": "droidbot.input_script",
+        "description": "droidbot.input_script",
+        "peekOfCode": "ScriptEvent_VAL = 'ScriptEvent'\nclass DroidBotScript(object):\n    \"\"\"\n    DroidBotScript is a DSL for customizing input for certain states\n    \"\"\"\n    script_grammar = {\n        'views': {\n            VIEW_ID: ViewSelector_VAL\n        },\n        'states': {",
+        "detail": "droidbot.input_script",
+        "documentation": {}
+    },
+    {
+        "label": "Intent",
+        "kind": 6,
+        "importPath": "droidbot.intent",
+        "description": "droidbot.intent",
+        "peekOfCode": "class Intent(object):\n    \"\"\"\n    this class describes a intent event\n    \"\"\"\n    def __init__(self, prefix=\"start\", action=None, data_uri=None, mime_type=None, category=None,\n                 component=None, flag=None, extra_keys=None, extra_string=None, extra_boolean=None,\n                 extra_int=None, extra_long=None, extra_float=None, extra_uri=None, extra_component=None,\n                 extra_array_int=None, extra_array_long=None, extra_array_float=None, flags=None, suffix=\"\"):\n        self.event_type = 'intent'\n        self.prefix = prefix",
+        "detail": "droidbot.intent",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "droidbot.start",
+        "description": "droidbot.start",
+        "peekOfCode": "def parse_args():\n    \"\"\"\n    parse command line input\n    generate options including host name, port number\n    \"\"\"\n    parser = argparse.ArgumentParser(description=\"Start DroidBot to test an Android app.\",\n                                     formatter_class=argparse.RawTextHelpFormatter)\n    parser.add_argument(\"-d\", action=\"store\", dest=\"device_serial\", required=False,\n                        help=\"The serial number of target device (use `adb devices` to find)\")\n    parser.add_argument(\"-a\", action=\"store\", dest=\"apk_path\", required=True,",
+        "detail": "droidbot.start",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "droidbot.start",
+        "description": "droidbot.start",
+        "peekOfCode": "def main():\n    \"\"\"\n    the main function\n    it starts a droidbot according to the arguments given in cmd line\n    \"\"\"\n    opts = parse_args()\n    import os\n    if not os.path.exists(opts.apk_path):\n        print(\"APK does not exist.\")\n        return",
+        "detail": "droidbot.start",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "kind": 2,
+        "importPath": "droidbot.start_q_learning",
+        "description": "droidbot.start_q_learning",
+        "peekOfCode": "def callback(_locals, _globals, save_every=1000):\n    \"\"\"\n    Callback called at each step (for DQN an others) or after n steps (see ACER or PPO2)\n    :param _locals: (dict)\n    :param _globals: (dict)\n    \"\"\"\n    global n_steps\n    # Print stats every 1000 calls\n    if (n_steps + 1) % save_every == 0:\n        temp_int = int(time.time())",
+        "detail": "droidbot.start_q_learning",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "droidbot.start_q_learning",
+        "description": "droidbot.start_q_learning",
+        "peekOfCode": "def parse_args():\n    \"\"\"\n    parse command line input\n    generate options including host name, port number\n    \"\"\"\n    parser = argparse.ArgumentParser(description=\"Start DroidBot to test an Android app.\",\n                                     formatter_class=argparse.RawTextHelpFormatter)\n    parser.add_argument(\"-d\", action=\"store\", dest=\"device_serial\", required=False,\n                        help=\"The serial number of target device (use `adb devices` to find)\")\n    parser.add_argument(\"-a\", action=\"store\", dest=\"apk_path\", required=True,",
+        "detail": "droidbot.start_q_learning",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "droidbot.start_q_learning",
+        "description": "droidbot.start_q_learning",
+        "peekOfCode": "def main():\n    \"\"\"\n    the main function\n    it starts a droidbot according to the arguments given in cmd line\n    \"\"\"\n    opts = parse_args()\n    import os\n    if not os.path.exists(opts.apk_path):\n        print(\"APK does not exist.\")\n        return",
+        "detail": "droidbot.start_q_learning",
+        "documentation": {}
+    },
+    {
+        "label": "n_steps",
+        "kind": 5,
+        "importPath": "droidbot.start_q_learning",
+        "description": "droidbot.start_q_learning",
+        "peekOfCode": "n_steps = 0 #used for saving model with callback\n# save RL model in progress\ndef callback(_locals, _globals, save_every=1000):\n    \"\"\"\n    Callback called at each step (for DQN an others) or after n steps (see ACER or PPO2)\n    :param _locals: (dict)\n    :param _globals: (dict)\n    \"\"\"\n    global n_steps\n    # Print stats every 1000 calls",
+        "detail": "droidbot.start_q_learning",
+        "documentation": {}
+    },
+    {
+        "label": "UTG",
+        "kind": 6,
+        "importPath": "droidbot.utg",
+        "description": "droidbot.utg",
+        "peekOfCode": "class UTG(object):\n    \"\"\"\n    UI transition graph\n    \"\"\"\n    def __init__(self, device, app, random_input):\n        self.logger = logging.getLogger(self.__class__.__name__)\n        self.device = device\n        self.app = app\n        self.random_input = random_input\n        self.G = nx.DiGraph()",
+        "detail": "droidbot.utg",
+        "documentation": {}
+    },
+    {
+        "label": "parse_log",
+        "kind": 2,
+        "importPath": "droidbot.utils",
+        "description": "droidbot.utils",
+        "peekOfCode": "def parse_log(log_msg):\n    \"\"\"\n    parse a logcat message\n    the log should be in threadtime format\n    @param log_msg:\n    @return:\n    \"\"\"\n    m = LOGCAT_THREADTIME_RE.match(log_msg)\n    if not m:\n        return None",
+        "detail": "droidbot.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_available_devices",
+        "kind": 2,
+        "importPath": "droidbot.utils",
+        "description": "droidbot.utils",
+        "peekOfCode": "def get_available_devices():\n    \"\"\"\n    Get a list of device serials connected via adb\n    :return: list of str, each str is a device serial number\n    \"\"\"\n    import subprocess\n    r = subprocess.check_output([\"adb\", \"devices\"])\n    if not isinstance(r, str):\n        r = r.decode()\n    devices = []",
+        "detail": "droidbot.utils",
+        "documentation": {}
+    },
+    {
+        "label": "weighted_choice",
+        "kind": 2,
+        "importPath": "droidbot.utils",
+        "description": "droidbot.utils",
+        "peekOfCode": "def weighted_choice(choices):\n    import random\n    total = sum(choices[c] for c in list(choices.keys()))\n    r = random.uniform(0, total)\n    upto = 0\n    for c in list(choices.keys()):\n        if upto + choices[c] > r:\n            return c\n        upto += choices[c]\ndef safe_re_match(regex, content):",
+        "detail": "droidbot.utils",
+        "documentation": {}
+    },
+    {
+        "label": "safe_re_match",
+        "kind": 2,
+        "importPath": "droidbot.utils",
+        "description": "droidbot.utils",
+        "peekOfCode": "def safe_re_match(regex, content):\n    if not regex or not content:\n        return None\n    else:\n        return regex.match(content)\ndef list_to_html_table(dict_data):\n    table = \"<table class=\\\"table\\\">\\n\"\n    for (key, value) in dict_data:\n        table += \"<tr><th>%s</th><td>%s</td></tr>\\n\" % (key, value)\n    table += \"</table>\"",
+        "detail": "droidbot.utils",
+        "documentation": {}
+    },
+    {
+        "label": "list_to_html_table",
+        "kind": 2,
+        "importPath": "droidbot.utils",
+        "description": "droidbot.utils",
+        "peekOfCode": "def list_to_html_table(dict_data):\n    table = \"<table class=\\\"table\\\">\\n\"\n    for (key, value) in dict_data:\n        table += \"<tr><th>%s</th><td>%s</td></tr>\\n\" % (key, value)\n    table += \"</table>\"\n    return table\ndef md5(input_str):\n    import hashlib\n    return hashlib.md5(input_str.encode('utf-8')).hexdigest()",
+        "detail": "droidbot.utils",
+        "documentation": {}
+    },
+    {
+        "label": "md5",
+        "kind": 2,
+        "importPath": "droidbot.utils",
+        "description": "droidbot.utils",
+        "peekOfCode": "def md5(input_str):\n    import hashlib\n    return hashlib.md5(input_str.encode('utf-8')).hexdigest()",
+        "detail": "droidbot.utils",
+        "documentation": {}
+    },
+    {
+        "label": "LOGCAT_THREADTIME_RE",
+        "kind": 5,
+        "importPath": "droidbot.utils",
+        "description": "droidbot.utils",
+        "peekOfCode": "LOGCAT_THREADTIME_RE = re.compile('^(?P<date>\\S+)\\s+(?P<time>\\S+)\\s+(?P<pid>[0-9]+)\\s+(?P<tid>[0-9]+)\\s+'\n                                  '(?P<level>[VDIWEFS])\\s+(?P<tag>[^:]*):\\s+(?P<content>.*)$')\ndef parse_log(log_msg):\n    \"\"\"\n    parse a logcat message\n    the log should be in threadtime format\n    @param log_msg:\n    @return:\n    \"\"\"\n    m = LOGCAT_THREADTIME_RE.match(log_msg)",
+        "detail": "droidbot.utils",
+        "documentation": {}
+    }
+]
