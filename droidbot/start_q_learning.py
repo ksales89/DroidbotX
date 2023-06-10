@@ -1,6 +1,7 @@
 # helper file of droidbot
 # it parses command arguments and send the options to droidbot
 import argparse
+import torch
 import input_manager
 import input_policy
 import env_manager
@@ -13,8 +14,16 @@ import time
 from input_event import KeyEvent, TouchEvent, LongTouchEvent, ScrollEvent
 import json
 
+import droidbot
+import droidbot_env
+
+import torch
+import torch.nn as nn
+import torch.optim as optim
+
 import gym
 from stable_baselines.common.vec_env import DummyVecEnv
+#from stable_baselines3.common.vec_env import DummyVecEnv
 from stable_baselines.common.policies import CnnPolicy
 from stable_baselines.common.policies import MlpPolicy
 from stable_baselines import A2C
@@ -199,8 +208,43 @@ def main():
     env = DummyVecEnv([lambda: droidbot_env.DroidBotEnv(droidbot)])
     start_time = time.time()
     env.reset()
+            
+class QNetwork(nn.Module):
+    def __init__(self, state_size, action_size):
+        super(QNetwork, self).__init__()
+        self.fc1 = nn.Linear(state_size, 64)
+        self.fc2 = nn.Linear(64, 64)
+        self.fc3 = nn.Linear(64, action_size)
 
-    def events_so_state(env):
+    def forward(self, state):
+        x = torch.relu(self.fc1(state))
+        x = torch.relu(self.fc2(x))
+        q_values = self.fc3(x)
+        return q_values
+
+class ExperienceReplay:
+    def __init__(self, max_memory):
+        self.max_memory = max_memory
+        self.memory = []
+
+    def add_experience(self, state, action, reward, next_state, done):
+        experience = (state, action, reward, next_state, done)
+        self.memory.append(experience)
+        if len(self.memory) > self.max_memory:
+            self.memory.pop(0)
+
+    def sample_batch(self, batch_size):
+        indices = np.random.choice(len(self.memory), batch_size, replace=False)
+        batch = [self.memory[idx] for idx in indices]
+        states = torch.tensor([experience[0] for experience in batch], dtype=torch.float32)
+        actions = torch.tensor([experience[1] for experience in batch], dtype=torch.long)
+        rewards = torch.tensor([experience[2] for experience in batch], dtype=torch.float32)
+        next_states = torch.tensor([experience[3] for experience in batch], dtype=torch.float32)
+        dones = torch.tensor([experience[4] for experience in batch], dtype=torch.float32)
+        return states, actions, rewards, next_states, dones
+    
+
+def events_so_state(env):
         events = env.envs[0].possible_events
         state_now = env.envs[0].device.get_current_state()
         event_ids = []
@@ -217,22 +261,8 @@ def main():
         probs = np.array(probs)
         return state, probs, event_ids
 
-    state_function = {}
-    num_iterations = 1000
-    EPSILON = 0.1
-    Q_TABLE = []
-    transitions_matrix = None
-    number_of_trans = []
-    event_to_id = []
-    max_number_of_actions = 50
-
-    def check_state(state_id):
-        nonlocal Q_TABLE
-        nonlocal transitions_matrix
-        nonlocal number_of_trans
-        nonlocal event_to_id
-        nonlocal state_function
-        #print(state_id)
+# Função para verificar o estado no dicionário de estados
+def check_state(state_id, Q_TABLE, transitions_matrix, number_of_trans, event_to_id, state_function, max_number_of_actions):
         if state_function.get(state_id) is None:
             if Q_TABLE == []:
                 Q_TABLE = np.zeros((1, max_number_of_actions))
@@ -246,31 +276,26 @@ def main():
             state_function[state_id] = Q_TABLE.shape[0] - 1
             Q_TABLE[-1][-1] = 1.0
             number_of_trans.append(np.zeros(max_number_of_actions))
-        #print(state_function)
-    state_pre, probs, event_ids = events_so_state(env)
-    check_state(state_pre)
-    state = state_function[state_pre]
+        return Q_TABLE, transitions_matrix, number_of_trans, event_to_id, state_function
 
-    def make_decision(state_i, events):
-        nonlocal Q_TABLE, event_to_id
-        id_to_action = np.zeros((max_number_of_actions), dtype=np.int32) + 1000
-        q_values = np.zeros(max_number_of_actions)
-        probs_now = np.zeros(max_number_of_actions)
-
-        for i, event in enumerate(events):
-            if i == len(events) - 1:
-                q_values[-1] = Q_TABLE[state_i][-1]
-                id_to_action[-1] = min(len(events), max_number_of_actions) - 1
+    # Função para tomar decisões com base nos valores Q
+def make_decision(state_i, events, Q_TABLE, event_to_id, max_number_of_actions, EPSILON):
+    id_to_action = np.zeros((max_number_of_actions), dtype=np.int32) + 1000
+    q_values = np.zeros(max_number_of_actions)
+    probs_now = np.zeros(max_number_of_actions)
+    for i, event in enumerate(events):
+        if i == len(events) - 1:
+            q_values[-1] = Q_TABLE[state_i][-1]
+            id_to_action[-1] = min(len(events), max_number_of_actions) - 1
+            continue
+        if event_to_id[state_i].get(event) is None:
+            if len(event_to_id[state_i]) >= max_number_of_actions - 1:
                 continue
-            if event_to_id[state_i].get(event) is None:
-                if len(event_to_id[state_i]) >= max_number_of_actions - 1:
-                    continue
-                event_to_id[state_i][event] = int(len(list(event_to_id[state_i].keys())))
-                Q_TABLE[state_i][event_to_id[state_i][event]] = 1.0
+            event_to_id[state_i][event] = int(len(list(event_to_id[state_i].keys())))
+            Q_TABLE[state_i][event_to_id[state_i][event]] = 1.0
             q_values[event_to_id[state_i][event]] = Q_TABLE[state_i][event_to_id[state_i][event]]
 
             id_to_action[event_to_id[state_i][event]] = int(i)
-
 
         if np.random.rand() < EPSILON:
             action = max_number_of_actions - 1
@@ -278,46 +303,118 @@ def main():
         else:
             max_q = np.max(q_values)
             actions_argmax = np.arange(max_number_of_actions)[q_values >= max_q - 0.0001]
-            probs_unnormed = 1/(np.arange(actions_argmax.shape[0]) + 1.)
+            probs_unnormed = 1 / (np.arange(actions_argmax.shape[0]) + 1.)
             probs_unnormed /= np.sum(probs_unnormed)
             action = np.random.choice(actions_argmax)
             make_action = id_to_action[action]
         return action, make_action
 
-    for i_step in np.arange(num_iterations):
-        action, make_action = make_decision(state, event_ids)
-        print(state, action, make_action)
-        env.step([make_action])
-        new_state_pre, probs, event_ids = events_so_state(env)
+    # Função para atualizar os valores Q
+def update_Q_values(Q_TABLE, transitions_matrix, max_number_of_actions, learning_rate, discount_factor):
+    for _ in np.arange(10):
+        for i in np.arange(max_number_of_actions):
+            transitions = transitions_matrix[:, i, :]
+            q_target = np.array([[np.max(Q_TABLE[i])] for i in np.arange(Q_TABLE.shape[0])])
+            new_q_values = np.matmul(transitions, q_target) * discount_factor
+            good_states = np.sum(transitions, axis=1) > 0.5
+            if True in good_states:
+                Q_TABLE[good_states, i] = new_q_values[good_states, 0]
+            else:
+                continue
+        return Q_TABLE
+    
+    
+def train(max_episodes, max_steps, max_number_of_actions, learning_rate, discount_factor, epsilon, memory_size):
+    Q_TABLE = []
+    transitions_matrix = []
+    number_of_trans = []
+    event_to_id = []
+    state_function = {}
+    batch_size = 32
 
-        check_state(new_state_pre)
-        new_state = state_function[new_state_pre]
+    env = DummyVecEnv([lambda: droidbot_env.DroidBotEnv(droidbot)])
+    env.reset()
 
-        number_of_trans[state][action] += 1
-        transitions_matrix[state, action] *= (number_of_trans[state][action] - 1)
-        transitions_matrix[state, action, new_state] += 1
-        transitions_matrix[state, action] /= number_of_trans[state][action]
-        for _ in np.arange(10):
-            for i in np.arange(max_number_of_actions):
-                transitions = transitions_matrix[:, i, :]
-                q_target = np.array([[np.max(Q_TABLE[i])] for i in np.arange(Q_TABLE.shape[0])])
-                new_q_values = np.matmul(transitions, q_target) * 0.99
-                good_states = np.sum(transitions, axis=1) > 0.5
-                if True in good_states:
-                    Q_TABLE[good_states, i] = new_q_values[good_states, 0]
-                else:
-                    continue
-        for i in np.arange(Q_TABLE.shape[0]):
-            print(Q_TABLE[i])
-        if i_step%10==0:
+    state_size = env.observation_space.shape[0]
+    action_size = env.action_space.n
+
+    q_network = QNetwork(state_size, action_size)
+    optimizer = optim.Adam(q_network.parameters(), lr=learning_rate)
+    loss_function = nn.MSELoss()
+
+    experience_replay = ExperienceReplay(memory_size)
+
+    for episode in range(max_episodes):
+        state_pre, probs, event_ids = events_so_state(env)
+        Q_TABLE, transitions_matrix, number_of_trans, event_to_id, state_function = check_state(
+            state_pre, Q_TABLE, transitions_matrix, number_of_trans, event_to_id, state_function, max_number_of_actions
+        )
+        state = state_function[state_pre]
+
+        for step in range(max_steps):
+            action, make_action = make_decision(state, event_ids, Q_TABLE, event_to_id, max_number_of_actions, epsilon)
+            env.step([make_action])
+            env.render()  # Atualize o estado do ambiente
+
+            new_state_pre, _, event_ids = events_so_state(env)
+            Q_TABLE, transitions_matrix, number_of_trans, event_to_id, state_function = check_state(
+                new_state_pre, Q_TABLE, transitions_matrix, number_of_trans, event_to_id, state_function, max_number_of_actions
+            )
+            new_state = state_function[new_state_pre]
+
+            number_of_trans[state][action] += 1
+            transitions_matrix[state, action] *= (number_of_trans[state][action] - 1)
+            transitions_matrix[state, action, new_state] += 1
+            transitions_matrix[state, action] /= number_of_trans[state][action]
+
+            # Adicionar experiência à memória
+            # Obter a recompensa correspondente do ambiente
+            reward, done = env.get_reward_done(new_state)  # Chamada à função do ambiente
+            experience_replay.add_experience(state, action, reward, new_state, done)
+
+            # Amostragem de lote da memória
+            batch_states, batch_actions, batch_rewards, batch_next_states, batch_dones = experience_replay.sample_batch(batch_size)
+
+            # Calcular os valores Q esperados - Treino
+            q_values = q_network(batch_states)
+            q_values_next = q_network(batch_next_states)
+            q_values_target = q_values.clone()
+            max_q_values_next = torch.max(q_values_next, dim=1)[0]
+            q_values_target[range(batch_size), batch_actions] = batch_rewards + discount_factor * (1 - batch_dones) * max_q_values_next
+
+            # Calcular a perda e otimizar a rede neural
+            optimizer.zero_grad()
+            loss = loss_function(q_values, q_values_target)
+            loss.backward()
+            optimizer.step()
+
+            state = new_state
+
+        if episode % 10 == 0:
             np.save('q_function', Q_TABLE)
             np.save('transition_function', transitions_matrix)
             with open('states.json', 'w') as f:
                 json.dump(state_function, f)
-        state = new_state
-    1/0
-    droidbot.stop()
+
+    return Q_TABLE, transitions_matrix, state_function
+
+# Exemplo de uso
+max_episodes = 1000
+max_steps = 100
+max_number_of_actions = 50
+learning_rate = 0.1
+discount_factor = 0.99
+epsilon = 0.1
+memory_size = 10000
+batch_size = 32
+
+Q_TABLE, transitions_matrix, state_function = train(max_episodes, max_steps, max_number_of_actions,
+                                                    learning_rate, discount_factor, epsilon, memory_size)
+                
+1/0
+droidbot.stop()
 
 if __name__ == "__main__":
     print("Starting droidbot gym env")
     main()
+
