@@ -1,0 +1,16 @@
+
+
+=== PARA APÓS RODAR DROIDBOT run_droidbot ====
+Após terminar sozinho (com mensagem de pull de arquivo)
+Pegar os resultados em experiments/results_cov e os scripts em experiments
+copiar para alguma pasta qualquer
+deletar a pasta droidbot
+fazer git clone do github ksales89/droidbot
+git checkout add_experiment
+colar a pasta results_cov (não sobre-escrever a pasta result_cov! apenas acrescentar)
+fazer o push:
+	git status (para ver o que foi mudado)
+	git add result_cov
+	git commit -m "tricky_experiment_cov"
+	git push origin add_experiment
+
