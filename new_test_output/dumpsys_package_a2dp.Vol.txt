@@ -1,0 +1,130 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        435f747 a2dp.Vol/.main filter a8de923
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        43c1b74 a2dp.Vol/.ConnectWidgetConfigureActivity filter fc2c252
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        dad389d a2dp.Vol/.Starter filter 475c3d9
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Category: "android.intent.category.HOME"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        6f2112 a2dp.Vol/.ConnectWidget filter f871e20
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        150c0e3 a2dp.Vol/.Widget filter aa6b19e
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        dad389d a2dp.Vol/.Starter filter 475c3d9
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Category: "android.intent.category.HOME"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.notification.NotificationListenerService:
+        cb97ae0 a2dp.Vol/.NotificationCatcher filter 14bf47f permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+
+Key Set Manager:
+  [a2dp.Vol]
+      Signing KeySets: 29
+
+Packages:
+  Package [a2dp.Vol] (7a9c199):
+    userId=10134
+    pkg=Package{19a3c5e a2dp.Vol}
+    codePath=/data/app/a2dp.Vol-LVRT_E8lMeYqXUw2Oe2VkQ==
+    resourcePath=/data/app/a2dp.Vol-LVRT_E8lMeYqXUw2Oe2VkQ==
+    legacyNativeLibraryDir=/data/app/a2dp.Vol-LVRT_E8lMeYqXUw2Oe2VkQ==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=169 minSdk=23 targetSdk=28
+    versionName=2.13.0.4
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{bc4883f a2dp.Vol}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE ]
+    dataDir=/data/user/0/a2dp.Vol
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2023-06-12 19:08:34
+    firstInstallTime=2023-06-12 19:08:35
+    lastUpdateTime=2023-06-12 19:08:35
+    signatures=PackageSignatures{3eb650c version:1, signatures:[d0fcbd88], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.KILL_BACKGROUND_PROCESSES
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      com.android.launcher.permission.READ_SETTINGS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.READ_PHONE_STATE
+      android.permission.BROADCAST_STICKY
+      android.permission.ACCESS_NOTIFICATION_POLICY
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.FOREGROUND_SERVICE
+      android.permission.ACCESS_BACKGROUND_LOCATION: restricted=true
+    install permissions:
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+    User 0: ceDataInode=-4294835357 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      gids=[3002, 3001]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+
+Package Changes:
+  Sequence number=8
+  User 0:
+    seq=6, package=com.google.android.gms
+    seq=7, package=com.google.android.googlequicksearchbox
+
+
+Dexopt state:
+  [a2dp.Vol]
+    path: /data/app/a2dp.Vol-LVRT_E8lMeYqXUw2Oe2VkQ==/base.apk
+      x86: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [a2dp.Vol]
+     base.apk - 296
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

@@ -1,0 +1,48 @@
+{
+  "tag": "2023-06-11_004139",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.google.android.permissioncontroller",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          138,
+          783
+        ],
+        [
+          942,
+          921
+        ]
+      ],
+      "resource_id": "com.android.permissioncontroller:id/permission_message",
+      "checked": false,
+      "text": "Allow A2DP Volume to access this device's location?",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "804*138",
+      "signature": "[class]android.widget.TextView[resource_id]com.android.permissioncontroller:id/permission_message[text]None[enabled,,]",
+      "view_str": "294f7813198632f09e9b1c0765c2e8d8",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.android.permissioncontroller:id/permission_message"
+    }
+  },
+  "start_state": "3a1a7fdf7f45dbef79491f2f51fb5090",
+  "stop_state": "3a1a7fdf7f45dbef79491f2f51fb5090",
+  "event_str": "TouchEvent(state=3a1a7fdf7f45dbef79491f2f51fb5090, view=294f7813198632f09e9b1c0765c2e8d8)"
+}

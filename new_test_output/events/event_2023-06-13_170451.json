@@ -1,0 +1,10 @@
+{
+  "tag": "2023-06-13_170451",
+  "event": {
+    "event_type": "intent",
+    "intent": "am start a2dp.Vol/a2dp.Vol.main"
+  },
+  "start_state": "5b9b9db95998ccb1aed385066f8add67",
+  "stop_state": "06c830951ba2d8a28bb32731bbde2b14",
+  "event_str": "IntentEvent(intent='am start a2dp.Vol/a2dp.Vol.main')"
+}

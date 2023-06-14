@@ -1,0 +1,10 @@
+{
+  "tag": "2023-06-13_165929",
+  "event": {
+    "event_type": "key",
+    "name": "MENU"
+  },
+  "start_state": "06c830951ba2d8a28bb32731bbde2b14",
+  "stop_state": "06c830951ba2d8a28bb32731bbde2b14",
+  "event_str": "KeyEvent(state=06c830951ba2d8a28bb32731bbde2b14, name=MENU)"
+}

@@ -1,0 +1,48 @@
+{
+  "tag": "2023-06-11_004240",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "a2dp.Vol",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          397
+        ],
+        [
+          1080,
+          529
+        ]
+      ],
+      "resource_id": "a2dp.Vol:id/checkCaptLoc",
+      "checked": true,
+      "text": "Capture location on disconnect?",
+      "class": "android.widget.CheckBox",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 12,
+      "size": "1080*132",
+      "signature": "[class]android.widget.CheckBox[resource_id]a2dp.Vol:id/checkCaptLoc[text]Capture location on disconnect?[enabled,checked,]",
+      "view_str": "f50134ebaa21cd73a93a106e7b3ad676",
+      "content_free_signature": "[class]android.widget.CheckBox[resource_id]a2dp.Vol:id/checkCaptLoc"
+    }
+  },
+  "start_state": "ae5fa58f8b3f62455bdf24084b1f9dba",
+  "stop_state": "465c60045880de91b0494838ff4b7cf3",
+  "event_str": "TouchEvent(state=ae5fa58f8b3f62455bdf24084b1f9dba, view=f50134ebaa21cd73a93a106e7b3ad676)"
+}

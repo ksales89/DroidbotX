@@ -1,0 +1,48 @@
+{
+  "tag": "2023-06-11_004024",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.google.android.permissioncontroller",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1101
+        ],
+        [
+          1008,
+          1255
+        ]
+      ],
+      "resource_id": "com.android.permissioncontroller:id/permission_allow_button",
+      "checked": false,
+      "text": "Allow",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "936*154",
+      "signature": "[class]android.widget.Button[resource_id]com.android.permissioncontroller:id/permission_allow_button[text]Allow[enabled,,]",
+      "view_str": "9a68e6963ae87e7b582c4f13febab8db",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.android.permissioncontroller:id/permission_allow_button"
+    }
+  },
+  "start_state": "06c830951ba2d8a28bb32731bbde2b14",
+  "stop_state": "d72045117d9da4270c1a5e4404181efd",
+  "event_str": "TouchEvent(state=06c830951ba2d8a28bb32731bbde2b14, view=9a68e6963ae87e7b582c4f13febab8db)"
+}

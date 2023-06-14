@@ -1,0 +1,48 @@
+{
+  "tag": "2023-06-11_004033",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.google.android.permissioncontroller",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          138,
+          862
+        ],
+        [
+          942,
+          1000
+        ]
+      ],
+      "resource_id": "com.android.permissioncontroller:id/permission_message",
+      "checked": false,
+      "text": "Allow A2DP Volume to make and manage phone calls?",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "804*138",
+      "signature": "[class]android.widget.TextView[resource_id]com.android.permissioncontroller:id/permission_message[text]Allow A2DP Volume to make and manage phone calls?[enabled,,]",
+      "view_str": "1ae7d2adde18af2b141a2794e1d65a95",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.android.permissioncontroller:id/permission_message"
+    }
+  },
+  "start_state": "d72045117d9da4270c1a5e4404181efd",
+  "stop_state": "d72045117d9da4270c1a5e4404181efd",
+  "event_str": "TouchEvent(state=d72045117d9da4270c1a5e4404181efd, view=1ae7d2adde18af2b141a2794e1d65a95)"
+}

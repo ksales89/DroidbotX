@@ -1,0 +1,48 @@
+{
+  "tag": "2023-06-11_004144",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.google.android.permissioncontroller",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1304
+        ],
+        [
+          1008,
+          1458
+        ]
+      ],
+      "resource_id": "com.android.permissioncontroller:id/permission_deny_and_dont_ask_again_button",
+      "checked": false,
+      "text": "Deny & don\u2019t ask again",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 13,
+      "size": "936*154",
+      "signature": "[class]android.widget.Button[resource_id]com.android.permissioncontroller:id/permission_deny_and_dont_ask_again_button[text]Deny & don\u2019t ask again[enabled,,]",
+      "view_str": "6c756234955f7afbc278a98ebfccd4d0",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.android.permissioncontroller:id/permission_deny_and_dont_ask_again_button"
+    }
+  },
+  "start_state": "3a1a7fdf7f45dbef79491f2f51fb5090",
+  "stop_state": "3291c8e7ab1a96765b94f36af0cee588",
+  "event_str": "TouchEvent(state=3a1a7fdf7f45dbef79491f2f51fb5090, view=6c756234955f7afbc278a98ebfccd4d0)"
+}

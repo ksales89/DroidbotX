@@ -1,0 +1,48 @@
+{
+  "tag": "2023-06-11_004149",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "a2dp.Vol",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          408
+        ],
+        [
+          1080,
+          540
+        ]
+      ],
+      "resource_id": "android:id/text1",
+      "checked": false,
+      "text": "Car Dock",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "1080*132",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/text1[text]Car Dock[enabled,,]",
+      "view_str": "bb79a4092cfb4a3dbbb6bdcdfa98f84c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/text1"
+    }
+  },
+  "start_state": "3291c8e7ab1a96765b94f36af0cee588",
+  "stop_state": "294c807ce727b1334a69eba213bbfb4d",
+  "event_str": "TouchEvent(state=3291c8e7ab1a96765b94f36af0cee588, view=bb79a4092cfb4a3dbbb6bdcdfa98f84c)"
+}

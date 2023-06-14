@@ -1,0 +1,10 @@
+{
+  "tag": "2023-06-11_004029",
+  "event": {
+    "event_type": "key",
+    "name": "MENU"
+  },
+  "start_state": "d72045117d9da4270c1a5e4404181efd",
+  "stop_state": "d72045117d9da4270c1a5e4404181efd",
+  "event_str": "KeyEvent(state=d72045117d9da4270c1a5e4404181efd, name=MENU)"
+}

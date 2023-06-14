@@ -1,0 +1,48 @@
+{
+  "tag": "2023-06-11_004130",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "a2dp.Vol",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          647,
+          1061
+        ],
+        [
+          975,
+          1193
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "Set Permission",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 12,
+      "size": "328*132",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]Set Permission[enabled,,]",
+      "view_str": "2f15dea3bc739c3d1f923dbd859980c5",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button1"
+    }
+  },
+  "start_state": "149b6ad7dd763e409f251d7fe9a65882",
+  "stop_state": "3a1a7fdf7f45dbef79491f2f51fb5090",
+  "event_str": "TouchEvent(state=149b6ad7dd763e409f251d7fe9a65882, view=2f15dea3bc739c3d1f923dbd859980c5)"
+}

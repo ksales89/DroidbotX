@@ -1,0 +1,10 @@
+{
+  "tag": "2023-06-11_004109",
+  "event": {
+    "event_type": "intent",
+    "intent": "am force-stop a2dp.Vol"
+  },
+  "start_state": "9c8b7f276575440b58bce39265974c58",
+  "stop_state": "9c8b7f276575440b58bce39265974c58",
+  "event_str": "IntentEvent(intent='am force-stop a2dp.Vol')"
+}

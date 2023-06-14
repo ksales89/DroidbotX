@@ -1,0 +1,48 @@
+{
+  "tag": "2023-06-11_004159",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "a2dp.Vol",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1405
+        ],
+        [
+          1080,
+          1537
+        ]
+      ],
+      "resource_id": "a2dp.Vol:id/rampBox",
+      "checked": false,
+      "text": "Ramp volume up?",
+      "class": "android.widget.CheckBox",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 20,
+      "size": "1080*132",
+      "signature": "[class]android.widget.CheckBox[resource_id]a2dp.Vol:id/rampBox[text]Ramp volume up?[enabled,,]",
+      "view_str": "7c748fc250499df62dcf8ce997e535f8",
+      "content_free_signature": "[class]android.widget.CheckBox[resource_id]a2dp.Vol:id/rampBox"
+    }
+  },
+  "start_state": "2cd39f2ffc3c1f59eaaccf9a8ed25275",
+  "stop_state": "8cb156f01832f8276d77ef9ada565a5a",
+  "event_str": "TouchEvent(state=2cd39f2ffc3c1f59eaaccf9a8ed25275, view=7c748fc250499df62dcf8ce997e535f8)"
+}

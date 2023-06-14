@@ -1,0 +1,48 @@
+{
+  "tag": "2023-06-11_004225",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "a2dp.Vol",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          66
+        ],
+        [
+          1080,
+          220
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 6,
+      "size": "0*154",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f082eeac7ef3409b8dd951e65682a716",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    }
+  },
+  "start_state": "8cb156f01832f8276d77ef9ada565a5a",
+  "stop_state": "8cb156f01832f8276d77ef9ada565a5a",
+  "event_str": "TouchEvent(state=8cb156f01832f8276d77ef9ada565a5a, view=f082eeac7ef3409b8dd951e65682a716)"
+}

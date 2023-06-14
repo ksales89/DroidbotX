@@ -1,0 +1,48 @@
+{
+  "tag": "2023-06-13_170454",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.google.android.permissioncontroller",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          507,
+          761
+        ],
+        [
+          573,
+          827
+        ]
+      ],
+      "resource_id": "com.android.permissioncontroller:id/permission_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "66*66",
+      "signature": "[class]android.widget.ImageView[resource_id]com.android.permissioncontroller:id/permission_icon[text]None[enabled,,]",
+      "view_str": "09635dfd1920d57509b56b462569bb7a",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.android.permissioncontroller:id/permission_icon"
+    }
+  },
+  "start_state": "06c830951ba2d8a28bb32731bbde2b14",
+  "stop_state": "06c830951ba2d8a28bb32731bbde2b14",
+  "event_str": "TouchEvent(state=06c830951ba2d8a28bb32731bbde2b14, view=09635dfd1920d57509b56b462569bb7a)"
+}
