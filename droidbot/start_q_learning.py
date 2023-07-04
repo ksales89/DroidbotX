@@ -214,7 +214,9 @@ def main():
                 event_ids.append(event_str)
                 probs.append(env.envs[0].events_probs[i])
         state = state_now.state_str
+        print("state: ", state)
         probs = np.array(probs)
+        print("probs: ", probs)
         return state, probs, event_ids
 
     state_function = {}
