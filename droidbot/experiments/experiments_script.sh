@@ -42,7 +42,7 @@ function copy_coverage_files() {
 
 # Caminhos e diretórios
 apps_directory="$HOME/DroidbotX/droidbot/experiments/apps"
-output_directory="$HOME/Documentos/experiments/outputX"
+output_directory="$HOME/Documentos/experiments/outputX_Multi"
 local_results_directory="$HOME/DroidbotX/droidbot/experiments/results_cov/all_coverage"
 
 # Encontrar todos os APKs na pasta "apps"
