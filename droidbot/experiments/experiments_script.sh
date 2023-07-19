@@ -39,7 +39,7 @@ function copy_coverage_files() {
 
 # Directories
 apps_directory="$HOME/DroidbotX/droidbot/experiments/apps"
-output_directory="$HOME/Documentos/experiments/outputX"
+output_directory="$HOME/Documentos/experiments/outputX_1"
 local_results_directory="$HOME/DroidbotX/droidbot/experiments/results_cov/all_coverage"
 
 # Find all APKs in the "apps" directory
@@ -61,10 +61,7 @@ for apk_path in $apk_paths; do
     echo "Iteration: $j"
 
     # Clean up previous files
-    rm -f "$HOME/DroidbotX/fdroid/q_function.npy" \
-        "$HOME/DroidbotX/fdroid/states.json" \
-        "$HOME/DroidbotX/fdroid/transition_function.npy" \
-        "$HOME/DroidbotX/q_function.npy" \
+    rm -f "$HOME/DroidbotX/q_function.npy" \
         "$HOME/DroidbotX/states.json" \
         "$HOME/DroidbotX/transition_function.npy"
 
